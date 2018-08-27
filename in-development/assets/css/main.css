@@ -1,0 +1,301 @@
+html {
+  background: #0000ff;
+  color: #fff;
+  font-size: 19vmax;
+  line-height: 1;
+  font-family: "Sneak-Bool", monospace;
+}
+
+:target {
+  outline: none;
+}
+
+::selection {
+  background: #0000ff;
+  color: #000;
+}
+
+@media screen and (orientation: portrait) {
+  html {
+    font-size: 19vmin;
+  }
+}
+
+body {
+  background: #000;
+  margin: 0;
+  padding: 0.75em 0 0.025em;
+}
+
+section,
+ul,
+li,
+h1,
+p,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 1em;
+  margin-bottom: 0.25em;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  cursor: pointer;
+}
+
+a.plain {
+  text-decoration: underline;
+}
+
+a:hover {
+  color: unset;
+}
+
+a.tel:hover {
+  color: #0000ff;
+}
+
+a.email:hover {
+  color: #ff0000;
+}
+
+#projIndex a:hover {
+  color: #00ff00;
+}
+
+#jumboTxt {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 1em;
+  grid-row-gap: 0.08em;
+  grid-column-gap: 0.08em;
+  position: relative;
+}
+
+.fragment-wrapper {
+  position: relative;
+  grid-column-end: span 3;
+  display: inline-block;
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+
+.one {
+  grid-column-start: 1;
+}
+
+.two {
+  grid-column-start: 2;
+}
+
+.three {
+  grid-column-start: 3;
+}
+
+.four {
+  grid-column-start: 4;
+}
+
+.color-block {
+  pointer-events: auto;
+  position: absolute;
+  display: block;
+  width: 0.7em;
+  height: 0.7em;
+  background: #0000ff;
+  z-index: -1;
+}
+
+.fragment-wrapper img {
+  display: inline-block;
+  margin-left: -0.25em;
+  height: 0.525em;
+}
+
+[content="Const"]~.color-block {
+  left: 0.745em;
+  top: 0.51em;
+}
+
+[content="ruct"]~.color-block {
+  top: -0.22em;
+  left: 0.645em;
+  background-color: #ff0000;
+}
+
+[content="ing"]~.color-block {
+  top: -0.225em;
+  left: 1.16em;
+  background-color: #00ff00;
+}
+
+[content="Real"]~.color-block {
+  top: -0.1em;
+  left: 0.24em;
+  background: #ff0000;
+}
+
+[content="ities"]~.color-block {
+  /* top: -0.25em;
+  left: 1.77em; */
+  top: -0.097em;
+  left: 0.523em;
+  background: #00ff00;
+}
+
+[content="With"]~.color-block {
+  top: -0.23em;
+  left: 0.58em;
+}
+
+[content="in"]~.color-block {
+  top: 0.51em;
+  left: -0.035em;
+  background-color: #00ff00;
+}
+
+div:nth-child(8) [content="Real"]~.color-block {
+  top: -0.175em;
+  left: -0.473em;
+  background: #ff0000;
+}
+
+div:nth-child(9) [content="ities"]~.color-block {
+  /* top: -0.097em;
+  left: 0.523em; */
+  background: #ff0000;
+}
+
+div:nth-child(10) [content="With"]~.color-block {
+  top: 0.51em;
+  left: 1.44em;
+  background: #00ff00;
+}
+
+div:nth-child(11) [content=Real] ~ .color-block {
+  top: -0.23em;
+  left: 1.14em;
+  background: #0000ff;
+}
+
+div:nth-child(12) [content=ities] ~ .color-block {
+  background: #ff0000
+}
+
+#projectViewWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  padding: 5vw;
+  width: 100vw;
+  box-sizing: border-box;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+#projectPreviews {
+  overflow-x: scroll;
+  height: 100%;
+  position: relative;
+}
+
+#projectPreviews::-webkit-scrollbar {
+  display: none;
+}
+
+.preview {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  /* background-color: #fff; */
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.project-name {
+  font-family: "Lemur";
+  font-family: "Sneak";
+  box-sizing: border-box;
+  max-width: calc(100% - 4vw);
+  display: inline-block;
+  background: #000;
+  font-size: 0.3em;
+  padding: 0 0.1em 0.3em 0.2em;
+  position: absolute;
+  bottom: 2vw;
+  left: 2vw;
+  display: none;
+}
+
+#projectViewWrapper.visible {
+  visibility: visible;
+}
+
+#projectViewWrapper.visible~section {
+  opacity: 0;
+}
+
+.visible.preview {
+  display: block;
+  opacity: 1;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+#contact,
+#projIndex {
+  font-size: 0.5em;
+}
+
+#contact {
+  margin: 70vh 0 0;
+}
+
+[content^="C"],
+#contact h1,
+#c3p {
+  display: inline-block;
+  text-indent: -0.3em;
+}
+
+/* #underFoot {
+  position: fixed;
+  width: 100vw;
+  height: 1.5em;
+  bottom: 0;
+  left: 0;
+  z-index: -10;
+}
+
+#underFoot p {
+  margin: 0.5em;
+  font-size: calc(8px + 0.1em);
+} */
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: rgba(0, 0, 0, 1);
+}
+
+::-webkit-scrollbar-thumb {
+  border-right: 4px solid black;
+  background: #0000ff;
+}
