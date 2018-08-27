@@ -1,1 +1,2 @@
 .mov filter=lfs diff=lfs merge=lfs -text
+in-development/assets/img/instaface/** filter=lfs diff=lfs merge=lfs -text
