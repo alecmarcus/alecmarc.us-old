@@ -1,4 +1,18 @@
 {
+  "lincus": {
+    "name": "Lincus",
+    "client": "Chief Design Officer",
+    "time": "Summer 2018 &ndash; Present",
+    "scope": "Identity, <a href=\"https://linc.us\" target=\"blank_\">Wesbite, Application</a>",
+    "brief": "Lincus is a startup, whose flasgship product is a search engine for expertise. The identity was designed to reflect the idea of interconnection, while invoking a sense of community and intellectualism. The app is presently in beta, and has already been licensed to Yale University and UMass Amherst.",
+    "imgs": [
+      "lincus-1.svg",
+      "lincus-2.svg",
+      "lincus-3.png",
+      "lincus-4.png",
+      "lincus-5.png"
+    ]
+  },
   "c3p": {
     "name": "Close Third Person",
     "client": "University of Connecticut 2018 MFA Exhibition",
