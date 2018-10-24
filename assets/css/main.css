@@ -314,7 +314,7 @@ nav {
 
 .label,
 .p-wrap p:not(:last-child) {
-  margin-bottom: 0
+  margin-bottom: 0.25em;
 }
 
 .p-wrap p~p {
