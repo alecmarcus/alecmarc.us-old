@@ -294,7 +294,7 @@ nav {
 
 .about-grid {
   display: grid;
-  grid-template-columns: 1fr 7fr;
+  grid-template-columns: 1fr 8fr;
   grid-column-gap: 20px;
   margin-top: 3.4rem;
   transition: opacity .5s ease;
