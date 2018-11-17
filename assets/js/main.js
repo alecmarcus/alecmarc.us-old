@@ -1,11 +1,3 @@
-document.addEventListener('scroll', function () {
-  if ((window.innerHeight - window.scrollY) < 200) {
-    document.getElementById('aboutNav').classList.add('scrolled')
-  } else {
-    document.getElementById('aboutNav').classList.remove('scrolled')
-  }
-});
-
 function loadJSON(callback) {
 
   var xobj = new XMLHttpRequest();
@@ -26,31 +18,6 @@ function init() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-
-  // setTimeout(function () {
-  //   var fuNumber
-  //   var funSpace = document.getElementById("fun")
-  //   var aboutGrid = document.querySelector("div.about-grid")
-  //   aboutGrid.style.opacity = "0"
-  //   setInterval(function () {
-  //     var oldNumber = fuNumber
-  //     fuNumber = Math.floor(Math.random() * 15) + 1
-  //     if (fuNumber === oldNumber) {
-  //       fuNumber = Math.floor(Math.random() * 15) + 1
-  //     }
-  //     var horizPos = Math.floor(Math.random() * 40) + "vw"
-  //     var vertPos = Math.floor(Math.random() * 40) + "vh"
-  //     var funImg = "assets/img/fun/fun-" + fuNumber + ".png"
-  //     funSpace.style.opacity = "0"
-  //     setTimeout(function () {
-  //       funSpace.style.top = vertPos
-  //       funSpace.style.left = horizPos
-  //       funSpace.style.backgroundImage = "url('" + funImg + "')"
-  //       funSpace.style.opacity = "1"
-  //     }, 500);
-  //   }, 3000);
-  // }, 13500)
-
 
   //call the function that gets the JSON file
   init()

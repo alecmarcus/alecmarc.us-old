@@ -1,6 +1,7 @@
 {
   "lincus": {
     "name": "Lincus",
+    "id": "lincus",
     "client": "Chief Design Officer",
     "time": "Summer 2018 &ndash; Present",
     "scope": "Identity, <a href=\"https://linc.us\" target=\"blank_\">Wesbite, Application</a>",
@@ -15,6 +16,7 @@
   },
   "c3p": {
     "name": "Close Third Person",
+    "id": "c3p",
     "client": "University of Connecticut 2018 MFA Exhibition",
     "time": "Spring 2018",
     "scope": "Identity, Print Campaign, Exhibition Collateral",
@@ -32,6 +34,7 @@
   },
   "hr": {
     "name": "HYPERREAL",
+    "id": "hr",
     "client": "Self Initiated",
     "time": "Spring 2018",
     "scope": "Silkscreen posters, Book, <a href=\"https://instaface.alecmarc.us\" target=\"blank_\">Mobile Web App</a>, 3D",
@@ -60,6 +63,7 @@
   },
   "slabs": {
     "name": "[squared labs]",
+    "id": "slabs",
     "client": "[squared labs]/University of Connecticut",
     "time": "Summer 2017",
     "scope": "Identity, <a href=\"https://squaredlabs.uconn.edu\" target=\"blank_\">Website</a>, +++",
@@ -78,6 +82,7 @@
   },
   "pgc": {
     "name": "Plants & Global Change Research Lab",
+    "id": "pgc",
     "client": "University of Connecticut, Jeff Seemann",
     "time": "Spring 2018",
     "scope": "Identity",
@@ -104,6 +109,7 @@
   },
   "sl": {
     "name": "Seemann Lab",
+    "id": "sl",
     "client": "University of Connecticut, Jeff Seemann",
     "time": "Spring 2018",
     "scope": "Website",
@@ -121,6 +127,7 @@
   },
   "ose": {
     "name": "Open Source Everything",
+    "id": "ose",
     "client": "Self Initiated",
     "time": "Spring 2016",
     "scope": "Posters, Pamphlet, 3D",
@@ -135,6 +142,7 @@
   },
   "fdfo": {
     "name": "Further Down & Farther Out",
+    "id": "fdfo",
     "client": "Self Initiated",
     "time": "Spring 2017",
     "scope": "Book, Audio",
@@ -157,6 +165,7 @@
   },
   "ibqap": {
     "name": "It’s Been Quite a Process",
+    "id": "ibqap",
     "client": "Self Initiated",
     "time": "Spring 2017",
     "scope": "Book",
@@ -173,6 +182,7 @@
   },
   "abuse": {
     "name": "Abusability",
+    "id": "abuse",
     "client": "Self Initiated",
     "time": "Spring 2017",
     "scope": "Book",
@@ -194,6 +204,7 @@
   },
   "groove": {
     "name": "GROOVE Recording",
+    "id": "groove",
     "client": "GROOVE Recording Studio",
     "time": "Summer 2018",
     "scope": "Brand Identity, <a href=\"https://grooverecording.studio\" target=\"blank_\">Website</a> (Des + Dev), +++",
