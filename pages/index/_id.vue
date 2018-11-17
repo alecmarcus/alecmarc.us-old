@@ -38,7 +38,20 @@
     </section>
     <section
       id="projVis"
-      class="proj-vis" />
+      class="proj-vis">
+      <video
+        v-for="vid in activeProject.vids"
+        :key="vid"
+        :src="'/img/'+activeProject.id+'/'+vid"
+        autoplay
+        muted
+        loop />
+      <img
+        v-for="img in activeProject.imgs"
+        :key="img"
+        :src="'/img/'+activeProject.id+'/'+img"
+        :alt="activeProject.name">
+    </section>
   </div>
 </template>
 
@@ -72,9 +85,10 @@ export default {
     activeProject: state => state.projectView.activeProject
   }),
   created() {
-    if (this.$store.state.activeProject == null) {
-      this.setActiveProject(this.$route.params.id)
-    }
+    // if (this.$store.state.activeProject == null) {
+    //   this.setActiveProject(this.$route.params.id)
+    // }
+    this.setActiveProject(this.$route.params.id)
   },
   methods: mapActions({ setActiveProject: 'projectView/setActiveProject' })
 }

@@ -8,6 +8,9 @@
         <nav id="projectsNav">
           <h1>
             <span>Projects </span>
+            <nuxt-link
+              v-if="activeProject && this.$route.params.id"
+              to="/"><span class="return-arrow">&rarr;</span> {{ activeProject.name }}</nuxt-link>
           </h1>
         </nav>
       </div>
