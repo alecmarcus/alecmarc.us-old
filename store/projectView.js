@@ -1,7 +1,8 @@
 import projects from '~/assets/projects.json'
 
 export const state = () => ({
-  activeProjectId: projects[Object.keys(projects)[0]].id,
+  projectArray: Object.keys(projects),
+  activeProjectId: null,
   activeProject: null
 })
 

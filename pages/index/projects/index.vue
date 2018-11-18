@@ -31,6 +31,6 @@ export default {
 
 <style scoped>
 ul {
-  margin-top: 20px;
+  margin: 20px;
 }
 </style>

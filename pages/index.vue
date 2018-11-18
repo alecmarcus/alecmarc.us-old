@@ -6,7 +6,7 @@
     <section
       id="projects"
       :class="{expanded: this.$route.path === '/projects' || this.$route.params.id}">
-      <v-project-nav />
+      <v-primary-nav />
       <nuxt-child />
     </section>
   </div>
@@ -14,14 +14,14 @@
 
 <script>
 import VAboutSection from '~/components/VAboutSection.vue'
-import VProjectNav from '~/components/VProjectNav.vue'
+import VPrimaryNav from '~/components/VPrimaryNav.vue'
 import { mapState, mapActions } from 'vuex'
 import projects from '~/assets/projects.json'
 
 export default {
   components: {
     VAboutSection,
-    VProjectNav
+    VPrimaryNav
   },
   data: () => ({
     projects

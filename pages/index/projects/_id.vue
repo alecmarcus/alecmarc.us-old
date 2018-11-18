@@ -48,25 +48,32 @@ export default {
   data: () => ({
     projects
   }),
-  computed: mapState({
-    activeProject: state => state.projectView.activeProject
-  }),
+  computed: {
+    ...mapState({
+      activeProject: state => state.projectView.activeProject,
+      activeProjectId: state => state.projectView.activeProjectId,
+      projectArray: state => state.projectView.projectArray
+    })
+  },
   created() {
     this.setActiveProject(this.$route.params.id)
   },
   destroyed() {
     this.setActiveProject(null)
   },
-  methods: mapActions({ setActiveProject: 'projectView/setActiveProject' })
+  methods: {
+    ...mapActions({ setActiveProject: 'projectView/setActiveProject' })
+  }
 }
 </script>
 
 <style scoped>
-div {
-  margin-top: 20px;
+p {
+  margin: 20px;
 }
 
-img {
+img,
+video {
   display: block;
   max-width: 100vw;
   margin: 119px auto;
