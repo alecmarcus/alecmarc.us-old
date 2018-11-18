@@ -7,8 +7,13 @@ export const state = () => ({
 
 export const mutations = {
   setActiveProject(state, projectId) {
-    state.activeProjectId = projectId
-    state.activeProject = projects[projectId]
+    if (projectId != null) {
+      state.activeProjectId = projectId
+      state.activeProject = projects[projectId]
+    } else {
+      state.activeProjectId = null
+      state.activeProject = null
+    }
   }
 }
 
@@ -16,20 +21,6 @@ function setActiveProject(store, projectId) {
   store.commit('setActiveProject', projectId)
 }
 
-function throttled(delay, fn) {
-  let lastCall = 0
-  return function(...args) {
-    const now = new Date().getTime()
-    if (now - lastCall < delay) {
-      return
-    }
-    lastCall = now
-    return fn(...args)
-  }
-}
-
 export const actions = {
-  setActiveProject,
-  throttled,
-  setActiveProjectThrottled: throttled(750, setActiveProject)
+  setActiveProject
 }

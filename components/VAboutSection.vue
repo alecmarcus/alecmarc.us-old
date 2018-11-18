@@ -1,75 +1,16 @@
 <template>
-  <div class="about-grid off-2 off-md-1 off-sm-0 col-8 col-md-7 col-sm-4 ">
-    <nav
-      id="aboutNav"
-      ref="aboutNav">
-      <h1 onclick="this.scrollIntoView({behavior: 'smooth', block: 'end'})">About</h1>
-    </nav>
-    <div class="whoami">
-      <p>
-        <span class="my-name">Alec Marcus</span> &mdash; Designer + Maker + Developer
-      </p>
-      <p>
-        Exploring the interface of physical and virtual realities and disrupting relationships between the two. Asking questions,
-        starting conversations, experimenting.
-      </p>
-    </div>
-
-    <p class="heading">Education</p>
-    <div class="p-wrap">
-      <p>
-        University of Connecticut, BFA Graphic Design <strong>2018</strong>
-      </p>
-      <p>
-        UAL: Central Saint Martins, Design &amp; Interaction <strong>Spring 2017</strong>
-      </p>
-    </div>
-    <p class="heading">Work</p>
-    <div class="p-wrap">
-      <p>
-        Chief Design Officer at
-        <a
-          href="https://linc.us"
-          target="_blank">
-          lincus</a>
-        <strong>2018 &rarr; present</strong>
-      </p>
-      <p>
-        Design Lead at
-        <a
-          href="https://squaredlabs.uconn.edu"
-          target="_blank">
-          [squared labs]</a> <strong>2017 &rarr; present</strong>
-      </p>
-      <p>
-        Designer at University of Connecticut Design Center Studio <strong>2016, 2018</strong>
-      </p>
-      <p>
-        Designer at the Connecticut Transportation Institute <strong>2015 &rarr; 2017</strong>
-      </p>
-    </div>
-
-    <p class="heading">Location</p>
+  <div>
     <p>
-      New England US / London UK
+      Alec Marcus is a communication designer, graphic designer, web designer, web developer, and maker intested in media studies, ethical [digital] product design, new &amp; experimental technologies, and an open source future trying to always be learning, subvert questionable realtionships with technology, collaborate, promote intellectual pursuit, and modularize everything.
     </p>
-
-    <p class="heading">Connect</p>
     <p>
-      <a href="mailto:nicewebsite@alecmarc.us">Email,</a>
-      <a
-        href="https://instagram.com/_alecmarcus"
-        target="_blank">Instagram,</a>
-      <a
-        href="https://github.com/alecmarcus"
-        target="_blank">GitHub</a>,
-      <a
-        href="https://gitlab.com/alecmarcus"
-        target="_blank">GitLab</a>
+      He can be reached by phone or electronic mail.
     </p>
-    <p class="heading">Coffee?</p>
     <p>
-      <a href="tel:+18603083030">Call me.</a>
+      He designed and developed this website, which is open source. As such, he invites fellow creatives to fork it on GitHub, make it their own, and use it to display their work.
+    </p>
+    <p>
+      He thanks Colophon Foundry for their work on the typeface Basis Grotesque, which this website is set in.
     </p>
   </div>
 </template>
@@ -93,3 +34,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+div {
+  padding-bottom: 93px;
+}
+</style>

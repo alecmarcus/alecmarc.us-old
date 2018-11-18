@@ -3,17 +3,10 @@
     <section id="about">
       <v-about-section />
     </section>
-    <section id="projects">
-      <div class="off-2 off-md-1 off-sm-0">
-        <nav id="projectsNav">
-          <h1>
-            <span>Projects </span>
-            <nuxt-link
-              v-if="activeProject && this.$route.params.id"
-              to="/"><span class="return-arrow">&rarr;</span> {{ activeProject.name }}</nuxt-link>
-          </h1>
-        </nav>
-      </div>
+    <section
+      id="projects"
+      :class="{expanded: this.$route.path === '/projects' || this.$route.params.id}">
+      <v-project-nav />
       <nuxt-child />
     </section>
   </div>
@@ -21,12 +14,14 @@
 
 <script>
 import VAboutSection from '~/components/VAboutSection.vue'
-import { mapState } from 'vuex'
+import VProjectNav from '~/components/VProjectNav.vue'
+import { mapState, mapActions } from 'vuex'
 import projects from '~/assets/projects.json'
 
 export default {
   components: {
-    VAboutSection
+    VAboutSection,
+    VProjectNav
   },
   data: () => ({
     projects
@@ -38,4 +33,16 @@ export default {
 </script>
 
 <style>
+#projects {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  background: #ffffff;
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+
+#projects.collapsed {
+  top: 0;
+}
 </style>

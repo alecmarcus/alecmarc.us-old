@@ -1,10 +1,11 @@
 <template>
-  <div class="col-7 col-md-6 col-sm-4 content">
+  <div>
     <ul>
       <v-project-list-item
         v-for="project in projects"
         :key="project.id"
         :project-name="project.name"
+        :project-year="project.time"
         :project-id="project.id" />
     </ul>
   </div>
@@ -27,3 +28,9 @@ export default {
   })
 }
 </script>
+
+<style scoped>
+ul {
+  margin-top: 20px;
+}
+</style>
