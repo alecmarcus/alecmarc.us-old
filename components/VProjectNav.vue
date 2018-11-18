@@ -2,14 +2,20 @@
   <nav id="projectsNav">
     <div v-if="activeProject && this.$route.params.id">
       <h1>{{ activeProject.name }}</h1>
-      <nuxt-link to="/projects">Return</nuxt-link>
+      <nuxt-link
+        to="/projects"
+        class="back">Return to Index</nuxt-link>
     </div>
     <div v-if="this.$route.path === '/projects'">
       <h1>Index of Projects</h1>
-      <nuxt-link to="/" >Return</nuxt-link>
+      <nuxt-link
+        to="/"
+        class="back">Return Home</nuxt-link>
     </div>
     <h1 v-if="this.$route.path === '/'">
-      <nuxt-link to="/projects">Index of Projects</nuxt-link>
+      <nuxt-link
+        to="/projects"
+        class="forward">Index of Projects</nuxt-link>
     </h1>
   </nav>
 </template>
@@ -43,5 +49,31 @@ h1 {
   margin: 20px 0;
   display: inline-block;
   width: 66%;
+}
+
+.forward:after {
+  content: '→';
+  padding-left: 0.3em;
+  transform: translateX(0.3em);
+}
+
+.back:before {
+  content: '← ';
+  padding-right: 0.3em;
+  transform: translateX(-0.3em);
+}
+
+.forward:after,
+.back:before {
+  display: inline-block;
+  color: #2e2e2e;
+  opacity: 0;
+  transition: all 0.15s ease;
+}
+
+.forward:hover:after,
+.back:hover:before {
+  opacity: 1;
+  transform: translateX(0);
 }
 </style>

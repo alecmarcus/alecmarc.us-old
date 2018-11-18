@@ -16,3 +16,23 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+a:after {
+  content: '→';
+  padding-left: 0.3em;
+  transform: translateX(0.3em);
+}
+
+a:after {
+  display: inline-block;
+  color: #2e2e2e;
+  opacity: 0;
+  transition: all 0.15s ease;
+}
+
+a:hover:after {
+  opacity: 1;
+  transform: translateX(0);
+}
+</style>
