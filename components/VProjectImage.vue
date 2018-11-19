@@ -18,11 +18,8 @@ export default {
   },
   methods: {
     focus: function($event) {
-      console.log('focused')
       if ($event.target.classList.contains('focused')) {
         $event.target.classList.remove('focused')
-        // } else if ($event.target.classList.contains('full')) {
-        //   return
       } else {
         $event.target.classList.add('focused')
       }
