@@ -15,7 +15,13 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: pkg.description }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href: process.env.FONT_URL
+      }
+    ]
   },
 
   /*
@@ -26,8 +32,7 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: ['~/assets/css/lemur.css', '~/assets/css/main.css'],
-
+  css: ['~/assets/css/main.css'],
   /*
   ** Plugins to load before mounting the App
   */
