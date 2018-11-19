@@ -1,11 +1,11 @@
 {
   "cor2e-symposium": {
     "name": "COR&sup2;E Symposium",
-    "id": "co2re-symposium",
+    "id": "cor2e-symposium",
     "client": "COR&sup2;E",
     "time": "2018",
     "scope": "Identity, Print & Digital Ad Campaign, Event Collateral",
-    "brief": "The Center for Open Research Resources and Equipment at the Univeristy of Connecticut held its first Symposium on 19 November, 2018. Composed of 9 facilities, each housing state-of-the-art equipment, run by top researchers, COR&sup2;E is a key factor on UConn's Tier 1 research institution status. The symposium was a gathering of facility users, directors, and research students and faculty to discuss and learn about the resources made available by COR&sup2;E. Flyers, digital invitations, postcards/schedules, and informational posters were rendered for the event.",
+    "brief": "The Center for Open Research Resources and Equipment at the Univeristy of Connecticut held its first Symposium on 19 November, 2018. Composed of 9 facilities, each housing state-of-the-art equipment and run by top researchers, COR&sup2;E is a key factor on UConn's Tier 1 research institution status. The symposium was a gathering of facility users and directors along with as student and faculty researchers to discuss and learn about the resources made available by COR&sup2;E. Flyers, digital invitations, postcards/schedules, and informational posters were rendered for the event.",
     "imgs": []
   },
   "lincus": {
@@ -14,7 +14,7 @@
     "client": "Chief Design Officer",
     "time": "2018 / Ongoing",
     "scope": "Identity, <a href=\"https://linc.us\" target=\"blank_\">Wesbite, Application</a>",
-    "brief": "A startup whose flasgship product is a search engine for scientific research expertise. The identity was designed to reflect the idea of interconnection, while invoking a sense of community and intellectualism. The app is presently in beta, and has already been licensed to Yale University and UMass Amherst.",
+    "brief": "A startup whose flasgship product is a search engine for scientific research expertise. The identity was designed to reflect the idea of interconnection, while invoking a sense of community and intellectualism.",
     "imgs": [
       "lincus-1.svg",
       "lincus-2.svg",
@@ -227,7 +227,7 @@
     "client": "Self Initiated",
     "time": "2016",
     "scope": "Posters, Pamphlet, 3D",
-    "brief": "A series of posters for the Open Source Everything manifesto, which purports a society built around truth, transparency, and trust. Access to information on the posters is actively obstructed through visual complexity and coded language. Each reflects one of the three main paradigms of computing: the mainframe, the cloud, and edge computing. Accompanying is a US English QWERTY keyboard cover screen printed with binary encoded characters. The piece contextualizes thought, input/output, and screens with the actual information stored on hard drives.",
+    "brief": "A series of posters for the Open Source Everything manifesto, which calls for a society built upon truth, transparency, and trust. Access to information on the posters is actively obstructed through visual complexity and coded language. Each reflects one of the three main paradigms of computing: the mainframe, the cloud, and edge computing. Accompanying is a US English QWERTY keyboard cover screen printed with binary encoded characters. The piece contextualizes thought, input/output, and screens with the actual information stored on hard drives.",
     "imgs": [
       "ose-poster-1.jpg",
       "ose-poster-2.jpg",
