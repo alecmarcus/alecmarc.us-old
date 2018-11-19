@@ -32,11 +32,11 @@ export default {
 
 <style scoped>
 ul {
-  margin: 107px 0 0 20px;
-  padding-top: 20px;
-  padding-right: 20px;
+  margin: calc(107rem / 16) 0 0 1.25rem;
+  padding-top: 1.25rem;
+  padding-right: 1.25rem;
   overflow-y: scroll;
-  max-height: calc(100vh - 127px);
+  max-height: calc(100vh - ((107rem / 16) + 1.25rem));
   position: relative;
 }
 

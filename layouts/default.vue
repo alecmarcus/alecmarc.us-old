@@ -16,11 +16,15 @@ export default {
 </script>
 
 <style scoped>
+main {
+  font-size: calc(49rem / 16);
+}
+
 #primaryNav {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  top: calc(100vh - 105px);
+  top: calc(100vh - (105rem / 16));
   background: #ffffff;
 }
 

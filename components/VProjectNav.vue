@@ -64,7 +64,7 @@ nav {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  padding: 0 20px;
+  padding: 0 1.25rem;
 }
 
 .next:after {

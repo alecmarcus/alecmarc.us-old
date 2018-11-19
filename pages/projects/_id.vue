@@ -81,10 +81,10 @@ img,
 video {
   display: block;
   max-width: 100vw;
-  margin: 119px auto;
+  margin: calc(119rem / 16) auto;
 }
 
 div {
-  margin-bottom: 125px;
+  margin-bottom: calc((107rem / 16) + 1.25rem);
 }
 </style>

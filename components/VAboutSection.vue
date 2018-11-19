@@ -38,8 +38,8 @@ export default {
 
 <style scoped>
 div {
-  margin: 20px;
-  padding-bottom: 63px;
+  margin: 1.25rem;
+  padding-bottom: calc(63rem / 16);
 }
 
 .focus {

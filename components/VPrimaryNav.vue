@@ -59,7 +59,7 @@ nav div {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 h1 {

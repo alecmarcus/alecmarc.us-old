@@ -5,10 +5,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Basis Grotesque Pro', -apple-system, BlinkMacSystemFont, Roboto,
-    'Open Sans', 'Helvetica Neue', sans-serif;
-  /* font-size: calc(49em / 16); */
-  font-size: 49px;
+  font-family: 'Basis Grotesque Pro', -apple-system, BlinkMacSystemFont, Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #2e2e2e;
   font-weight: 300;
 }
@@ -25,6 +22,7 @@ h2,
 h3,
 h4,
 h5 {
+  font-size: inherit;
   margin-top: 0;
 }
 
