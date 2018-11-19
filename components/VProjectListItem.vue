@@ -1,8 +1,8 @@
 <template>
   <li class="project-link">
     <nuxt-link :to="'/projects/' + projectId">
-      <span v-html="projectYear" />
-      <span> &mdash; {{ projectName }}</span>
+      <span v-html="projectYear" /> &mdash;
+      <span v-html="projectName" />
     </nuxt-link>
   </li>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <nav id="primaryNav">
     <div v-if="activeProject && this.$route.params.id">
-      <h1>{{ activeProject.name }}</h1>
+      <h1 v-html="activeProject.name" />
       <nuxt-link
         to="/projects"
         class="going-up">Index</nuxt-link>
