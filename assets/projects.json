@@ -5,8 +5,25 @@
     "client": "COR&sup2;E",
     "time": "2018",
     "scope": "Identity, Print & Digital Ad Campaign, Event Collateral",
-    "brief": "The Center for Open Research Resources and Equipment at the Univeristy of Connecticut held its first Symposium on 19 November, 2018. Composed of 9 facilities, each housing state-of-the-art equipment and run by top researchers, COR&sup2;E is a key factor on UConn's Tier 1 research institution status. The symposium was a gathering of facility users and directors along with as student and faculty researchers to discuss and learn about the resources made available by COR&sup2;E. Flyers, digital invitations, postcards/schedules, and informational posters were rendered for the event.",
-    "imgs": []
+    "brief": "The Center for Open Research Resources and Equipment at the Univeristy of Connecticut held its first Symposium on 19 November, 2018. Composed of 9 facilities, each housing state-of-the-art equipment and run by top researchers, COR&sup2;E is a key factor of UConn's Tier 1 research institution status. The symposium was a gathering of facility users and directors along with student and faculty researchers, to discuss and learn about the resources made available by COR&sup2;E. Flyers, digital invitations, postcards/schedules, and informational posters were rendered for the event.",
+    "imgs": [
+      {
+        "fileName": "cor2e-symposium-1.png",
+        "width": "full"
+      },
+      {
+        "fileName": "alm-poster.jpg",
+        "width": "half"
+      },
+      {
+        "fileName": "biophys-poster.jpg",
+        "width": "half"
+      },
+      {
+        "fileName": "nmr-poster.jpg",
+        "width": "half centered"
+      }
+    ]
   },
   "lincus": {
     "name": "Lincus",
@@ -16,11 +33,26 @@
     "scope": "Identity, <a href=\"https://linc.us\" target=\"blank_\">Wesbite, Application</a>",
     "brief": "A startup whose flasgship product is a search engine for scientific research expertise. The identity was designed to reflect the idea of interconnection, while invoking a sense of community and intellectualism.",
     "imgs": [
-      "lincus-1.svg",
-      "lincus-2.svg",
-      "lincus-3.svg",
-      "lincus-4.svg",
-      "lincus-5.svg"
+      {
+        "fileName": "lincus-1.svg",
+        "width": "full"
+      },
+      {
+        "fileName": "lincus-2.svg",
+        "width": "full"
+      },
+      {
+        "fileName": "lincus-3.svg",
+        "width": "full"
+      },
+      {
+        "fileName": "lincus-4.svg",
+        "width": "full"
+      },
+      {
+        "fileName": "lincus-5.svg",
+        "width": "full"
+      }
     ]
   },
   "groove": {
@@ -31,23 +63,42 @@
     "scope": "Brand Identity, <a href=\"https://grooverecording.studio\" target=\"blank_\">Website</a> (Des + Dev), +++",
     "brief": "GROOVE Recording is the recording practice of a seasoned drummer who brings years of performance into the studio setting. In order to stand out in a saturated, cut-and-dry market, the brand invokes rhythm and movement, composed of a suite of grooves by which to present itself.",
     "imgs": [
-      "groove_animation_1.gif",
-      "groove_animation_2.gif",
-      "mockup-perspective-white.jpg",
-      "mockup-perspective-black.jpg",
-      "pattern-shirt-front.jpg",
-      "pattern-shirt-back.jpg",
-      "promo-gif-1.gif",
-      "promo-gif-2.gif",
-      "promo-gif-3.gif",
-      "large-pattern-1.png",
-      "large-pattern-2.png",
-      "groove-prcss-1.jpg",
-      "groove-prcss-3.png",
-      "groove-prcss-4.png",
-      "groove-prcss-6.png",
-      "groove-prcss-7.png",
-      "groove-prcss-8.png"
+      {
+        "fileName": "groove_animation_1.gif",
+        "width": "half contain"
+      },
+      {
+        "fileName": "groove_animation_2.gif",
+        "width": "half contain"
+      },
+      {
+        "fileName": "mockup-perspective-white.jpg",
+        "width": "half"
+      },
+      {
+        "fileName": "mockup-perspective-black.jpg",
+        "width": "half"
+      },
+      {
+        "fileName": "pattern-shirt-front.jpg",
+        "width": "half"
+      },
+      {
+        "fileName": "pattern-shirt-back.jpg",
+        "width": "half"
+      },
+      {
+        "fileName": "promo-gif-1.gif",
+        "width": "third contain"
+      },
+      {
+        "fileName": "promo-gif-2.gif",
+        "width": "third contain"
+      },
+      {
+        "fileName": "promo-gif-3.gif",
+        "width": "third contain"
+      }
     ]
   },
   "c3p": {
@@ -58,13 +109,18 @@
     "scope": "Identity, Print Campaign, Exhibition Collateral",
     "brief": "An identity for the UConn 2018 Master of Fine Arts Exhibition. The sliding mark and overlapping graphics speak to shifting perspectives and proximities; a quiet, thoughtful dance that guided each graduate during their time at the University.",
     "imgs": [
-      "c3p-2.jpg",
-      "c3p-3.jpg",
-      "c3p-4.jpg",
-      "c3p-prcss-1.jpg",
-      "c3p-prcss-2.jpg",
-      "c3p-prcss-3.jpg",
-      "c3p-prcss-4.jpg"
+      {
+        "fileName": "c3p-2.jpg",
+        "width": "third"
+      },
+      {
+        "fileName": "c3p-3.jpg",
+        "width": "two-thirds"
+      },
+      {
+        "fileName": "c3p-4.jpg",
+        "width": "full"
+      }
     ],
     "vids": ["c3p-1.webm"]
   },
@@ -76,23 +132,74 @@
     "scope": "Silkscreen posters, Book, <a href=\"https://instaface.alecmarc.us\" target=\"blank_\">Mobile Web App</a>, 3D",
     "brief": "HYPERREAL explores how digital technology shapes our understanding of reality. The project consists of several experiments that address the duality of modern existence: physicality (real) and intangibility (hyperreal). The experiments are intended to invoke questions as the viewer experiences and interacts with them. HYPERREAL intends to illuminate aspects of our lives which are new, complex, and only partially understood, yet often overlooked and easily accepted.",
     "imgs": [
-      "hr-1.svg",
-      "hr-2.png",
-      "hr-3.png",
-      "hr-5.jpg",
-      "hr-6.jpg",
-      "hr-7.jpg",
-      "hr-8.jpg",
-      "hr-9.jpg",
-      "hr-10.jpg",
-      "hr-11.jpg",
-      "hr-12.jpg",
-      "hr-13.jpg",
-      "hr-14.jpg",
-      "hr-15.jpg",
-      "hr-17.jpg",
-      "hr-18.jpg",
-      "hr-19.gif"
+      {
+        "fileName": "hr-1.svg",
+        "width": "two-thirds centered contain"
+      },
+      {
+        "fileName": "hr-2.png",
+        "width": "half contain"
+      },
+      {
+        "fileName": "hr-3.png",
+        "width": "half contain"
+      },
+      {
+        "fileName": "hr-5.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "hr-6.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "hr-8.jpg",
+        "width": "half"
+      },
+      {
+        "fileName": "hr-7.jpg",
+        "width": "half"
+      },
+      {
+        "fileName": "hr-9.jpg",
+        "width": "half"
+      },
+      {
+        "fileName": "hr-10.jpg",
+        "width": "half"
+      },
+      {
+        "fileName": "hr-11.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "hr-12.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "hr-13.jpg",
+        "width": "third"
+      },
+      {
+        "fileName": "hr-14.jpg",
+        "width": "two-thirds"
+      },
+      {
+        "fileName": "hr-15.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "hr-17.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "hr-18.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "hr-19.jpg",
+        "width": "full"
+      }
     ]
   },
   "instaface": {
@@ -102,7 +209,12 @@
     "time": "2018",
     "scope": "<a href=\"https://instaface.alecmarc.us\" target=\"blank_\">Mobile Web App</a>",
     "brief": "<a href=\"https://instaface.alecmarc.us\" target=\"blank_\">Instaface</a> is a concept of an application. It was conceived as a response to the musing: what would a social platform (in this case, Instagram) look and function like, if it put on absolutely no pretense, making each communicative filter fully present. When stripped down to its most basic functionality, and presented in a non-persuasive manner to the user, what sort of relationship is formed between the user and the application, and the user and her fellow users?",
-    "imgs": ["instaface-1.jpg"]
+    "imgs": [
+      {
+        "fileName": "instaface-1.jpg",
+        "width": "full"
+      }
+    ]
   },
   "pgc": {
     "name": "Plants & Global Change",
@@ -112,22 +224,50 @@
     "scope": "Identity",
     "brief": "The Plant & Global Change Research Lab researches plant life in the context of global warming and climate change. The central wave of the mark is representative of the yearly upward trend in atmospheric carbon dioxide concentration, known as the Keeling Curve. The acronym emerging from the wave invokes the intersection of plant biology and global change, while also providing potential for future activation among the peaks and valleys.",
     "imgs": [
-      "p&gc-black-whitebg.png",
-      "p&gc+text-black-whitebg.png",
-      "black-wave-whitebg.png",
-      "p&gc-green-whitebg.png",
-      "white-wavebox-72.png",
-      "pgc-colors.png",
-      "red-blue-wavebox-72.png",
-      "algae-green-wavebox-72.png",
-      "black-blue-wavebox-72.png",
-      "black-green-wavebox-72.png",
-      "black-white-wavebox-72.png",
-      "pgc-prcss-1.jpg",
-      "pgc-prcss-2.jpg",
-      "pgc-prcss-3.jpg",
-      "pgc-prcss-4.jpg",
-      "pgc-prcss-5.png"
+      {
+        "fileName": "p&gc-black-whitebg.png",
+        "width": "full"
+      },
+      {
+        "fileName": "p&gc+text-black-whitebg.png",
+        "width": "full"
+      },
+      {
+        "fileName": "black-wave-whitebg.png",
+        "width": "two-thirds centered contain"
+      },
+      {
+        "fileName": "p&gc-green-whitebg.png",
+        "width": "two-thirds centered contain"
+      },
+      {
+        "fileName": "pgc-colors.png",
+        "width": "two-thirds centered contain"
+      },
+      {
+        "fileName": "white-wavebox-72.png",
+        "width": "full"
+      },
+      {
+        "fileName": "red-blue-wavebox-72.png",
+        "width": "full"
+      },
+      {
+        "fileName": "algae-green-wavebox-72.png",
+        "width": "full"
+      },
+      {
+        "fileName": "black-blue-wavebox-72.png",
+        "width": "full"
+      },
+      {
+        "fileName": "black-green-wavebox-72.png",
+        "width": "full"
+      },
+      {
+        "fileName": "black-white-wavebox-72.png",
+        "width": "full"
+      }
     ]
   },
   "sl": {
@@ -138,14 +278,38 @@
     "scope": "Website",
     "brief": "A website for the laboratory of Jeff Seemann, a distinguished researcher, professor, and administrator at the University of Connecticut.",
     "imgs": [
-      "sl-mockup-1.jpg",
-      "sl-2.png",
-      "sl-3.png",
-      "sl-4.png",
-      "sl-5.png",
-      "sl-6.png",
-      "sl-7.png",
-      "sl-8.png"
+      {
+        "fileName": "sl-mockup-1.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "sl-2.png",
+        "width": "full"
+      },
+      {
+        "fileName": "sl-3.png",
+        "width": "full"
+      },
+      {
+        "fileName": "sl-4.png",
+        "width": "full"
+      },
+      {
+        "fileName": "sl-5.png",
+        "width": "full"
+      },
+      {
+        "fileName": "sl-6.png",
+        "width": "full"
+      },
+      {
+        "fileName": "sl-7.png",
+        "width": "full"
+      },
+      {
+        "fileName": "sl-8.png",
+        "width": "full"
+      }
     ]
   },
   "slabs": {
@@ -156,15 +320,42 @@
     "scope": "Identity, <a href=\"https://squaredlabs.uconn.edu\" target=\"blank_\">Website</a>, +++",
     "brief": "<a href=\"https://squaredlabs.uconn.edu\" target=\"blank_\">[squared labs]</a> provides design services, scientific illustration, and custom web based tools to support research at the University of Connecticut. The mark's design speaks to the kinetic, possibility-rich nature of the space. The &lsquo;⬚&rsquo; provides an area for activation, while the monospaced type of the wordmark harkens to software-based origin of the group.",
     "imgs": [
-      "word-blue-bg.svg",
-      "word-nobg.svg",
-      "square-black.svg",
-      "stack-nobg.svg",
-      "site-1.png",
-      "site-2.png",
-      "site-3.png",
-      "site-4.png",
-      "stamp.svg"
+      {
+        "fileName": "word-blue-bg.svg",
+        "width": "full"
+      },
+      {
+        "fileName": "word-nobg.svg",
+        "width": "full"
+      },
+      {
+        "fileName": "square-black.svg",
+        "width": "third centered contain"
+      },
+      {
+        "fileName": "stack-nobg.svg",
+        "width": "full"
+      },
+      {
+        "fileName": "site-1.png",
+        "width": "full"
+      },
+      {
+        "fileName": "site-2.png",
+        "width": "full"
+      },
+      {
+        "fileName": "site-3.png",
+        "width": "full"
+      },
+      {
+        "fileName": "site-4.png",
+        "width": "full"
+      },
+      {
+        "fileName": "stamp.svg",
+        "width": "full"
+      }
     ]
   },
   "fdfo": {
@@ -175,19 +366,58 @@
     "scope": "Book, Audio",
     "brief": "Perturbed by the homelessness epidemic that I witnessed for the first time while living in London, I made a &lsquo;walking tour&rsquo; that forces participants to recognize the homeless as they travel the city. My intent was to humanize the displaced; to bring their personalities, histories, and lives to the forefront of people's minds. The tour is designed to be taken while audio recordings of conversations between myself and displaced individuals are listened to through headphones. The accompanying book is a retrospective on one such conversation.",
     "imgs": [
-      "fdfo-1.jpg",
-      "fdfo-2.jpg",
-      "fdfo-3.jpg",
-      "fdfo-4.jpg",
-      "fdfo-5.jpg",
-      "fdfo-6.jpg",
-      "fdfo-7.jpg",
-      "fdfo-8.jpg",
-      "fdfo-9.jpg",
-      "fdfo-10.jpg",
-      "fdfo-11.jpg",
-      "fdfo-12.jpg",
-      "fdfo-13.jpg"
+      {
+        "fileName": "fdfo-1.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "fdfo-2.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "fdfo-3.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "fdfo-4.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "fdfo-5.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "fdfo-6.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "fdfo-7.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "fdfo-8.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "fdfo-9.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "fdfo-10.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "fdfo-11.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "fdfo-12.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "fdfo-13.jpg",
+        "width": "full"
+      }
     ]
   },
   "abusability": {
@@ -198,18 +428,54 @@
     "scope": "Book",
     "brief": "An exercise in manipulating physical media to create unique graphic styles and reveal natural systems. How do drastic scale changes affect media that are designed to be static? Balloons were decorated with numerous substances: acrylic paint, spray paint, screen printed plastisol ink, markers, and more, then inflated and deflated. Each application was thoroughly documented with an alpha-numeric ID system. The resulting set of complex textures and otherwordly landscapes were extracted into a graphic language.",
     "imgs": [
-      "abuse-3.jpg",
-      "abuse-4.jpg",
-      "abuse-5.jpg",
-      "abuse-6.jpg",
-      "abuse-7.jpg",
-      "abuse-8.jpg",
-      "abuse-9.jpg",
-      "abuse-10.jpg",
-      "abuse-11.jpg",
-      "abuse-12.jpg",
-      "abuse-13.jpg",
-      "abuse-14.jpg"
+      {
+        "fileName": "abuse-3.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "abuse-4.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "abuse-5.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "abuse-6.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "abuse-7.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "abuse-8.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "abuse-9.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "abuse-10.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "abuse-11.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "abuse-12.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "abuse-13.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "abuse-14.jpg",
+        "width": "full"
+      }
     ]
   },
   "ose": {
@@ -220,11 +486,22 @@
     "scope": "Posters, Pamphlet, 3D",
     "brief": "A series of posters for the Open Source Everything manifesto, which calls for a society built upon truth, transparency, and trust. Access to information on the posters is actively obstructed through visual complexity and coded language. Each reflects one of the three main paradigms of computing: the mainframe, the cloud, and edge computing. Accompanying is a US English QWERTY keyboard cover screen printed with binary encoded characters. The piece contextualizes thought, input/output, and screens with the actual information stored on hard drives.",
     "imgs": [
-      "ose-poster-1.jpg",
-      "ose-poster-2.jpg",
-      "ose-poster-3.jpg",
-      "ose-4.jpg",
-      "ose-prcss-1.jpg"
+      {
+        "fileName": "ose-poster-1.jpg",
+        "width": "third contain"
+      },
+      {
+        "fileName": "ose-poster-2.jpg",
+        "width": "third contain"
+      },
+      {
+        "fileName": "ose-poster-3.jpg",
+        "width": "third contain"
+      },
+      {
+        "fileName": "ose-4.jpg",
+        "width": "full"
+      }
     ]
   }
 }

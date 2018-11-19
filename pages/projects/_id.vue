@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section>
     <article>
       <p v-html="activeProject.brief"/>
     </article>
@@ -13,24 +13,28 @@
         loop />
     </article>
     <article>
-      <img
+      <v-project-image
         v-for="img in activeProject.imgs"
-        :key="img"
-        :src="'/img/'+activeProject.id+'/'+img"
-        :alt="activeProject.name">
+        :key="img.fileName"
+        :file-name="img.fileName"
+        :width="img.width"
+        :project-id="activeProject.id"
+        :project-name="activeProject.name" />
     </article>
     <v-project-nav />
-  </div>
+  </section>
 </template>
 
 <script>
 import VProjectNav from '~/components/VProjectNav.vue'
+import VProjectImage from '~/components/VProjectImage.vue'
 import { mapState, mapActions } from 'vuex'
 import projects from '~/assets/projects.json'
 
 export default {
   components: {
-    VProjectNav
+    VProjectNav,
+    VProjectImage
   },
   validate({ params }) {
     return isNaN(+params.id)
@@ -77,14 +81,13 @@ p {
   margin: 20px;
 }
 
-img,
 video {
   display: block;
   max-width: 100vw;
   margin: calc(119rem / 16) auto;
 }
 
-div {
+section {
   margin-bottom: calc((107rem / 16) + 1.25rem);
 }
 </style>
