@@ -1,6 +1,6 @@
 <template>
   <nav v-if="prevProjId && nextProjId">
-    <span>{{ projectArray.indexOf(activeProjectId) }} / {{ projectArray.length }}</span>
+    <span>{{ projectArray.indexOf(activeProjectId) + 1 }} / {{ projectArray.length }}</span>
     <span>
       <nuxt-link
         :to="'/projects/'+prevProjId"
