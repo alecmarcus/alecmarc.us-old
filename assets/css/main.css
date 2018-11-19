@@ -5,7 +5,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Basis Grotesque Pro', -apple-system, BlinkMacSystemFont, Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'basis-grotesque-off-white-pro', -apple-system,
+    BlinkMacSystemFont, Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #2e2e2e;
   font-weight: 300;
 }
