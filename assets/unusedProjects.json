@@ -1,0 +1,19 @@
+{
+  "ibqap": {
+    "name": "It’s Been Quite a Process",
+    "id": "ibqap",
+    "client": "Self Initiated",
+    "time": "2017",
+    "scope": "Book",
+    "brief": "A collation of notes, sketches, iterations, feedback, and responses of each project undertaken while at CSM. Handmade in an edition of two, printed on 95GSM STARWHITE Sirius paper with a 175GSM Plike paper cover, which sports carbon transferred type.",
+    "imgs": [
+      "ibqap-1.jpg",
+      "ibqap-2.jpg",
+      "ibqap-3.jpg",
+      "ibqap-4.jpg",
+      "ibqap-5.jpg",
+      "ibqap-6.jpg",
+      "ibqap-7.jpg"
+    ]
+  }
+}

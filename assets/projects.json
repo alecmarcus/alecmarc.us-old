@@ -68,9 +68,9 @@
     ],
     "vids": ["c3p-1.webm"]
   },
-  "hr": {
+  "hyperreal": {
     "name": "HYPERREAL",
-    "id": "hr",
+    "id": "hyperreal",
     "client": "Self Initiated",
     "time": "2018",
     "scope": "Silkscreen posters, Book, <a href=\"https://instaface.alecmarc.us\" target=\"blank_\">Mobile Web App</a>, 3D",
@@ -79,7 +79,6 @@
       "hr-1.svg",
       "hr-2.png",
       "hr-3.png",
-      "hr-4.jpg",
       "hr-5.jpg",
       "hr-6.jpg",
       "hr-7.jpg",
@@ -95,6 +94,15 @@
       "hr-18.jpg",
       "hr-19.gif"
     ]
+  },
+  "instaface": {
+    "name": "Instaface",
+    "id": "instaface",
+    "client": "Self Initiated",
+    "time": "2018",
+    "scope": "<a href=\"https://instaface.alecmarc.us\" target=\"blank_\">Mobile Web App</a>",
+    "brief": "<a href=\"https://instaface.alecmarc.us\" target=\"blank_\">Instaface</a> is a concept of an application. It was conceived as a response to the musing: what would a social platform (in this case, Instagram) look and function like, if it put on absolutely no pretense, making each communicative filter fully present. When stripped down to its most basic functionality, and presented in a non-persuasive manner to the user, what sort of relationship is formed between the user and the application, and the user and her fellow users?",
+    "imgs": ["instaface-1.jpg"]
   },
   "pgc": {
     "name": "Plants & Global Change",
@@ -146,7 +154,7 @@
     "client": "[squared labs]/University of Connecticut",
     "time": "2017",
     "scope": "Identity, <a href=\"https://squaredlabs.uconn.edu\" target=\"blank_\">Website</a>, +++",
-    "brief": "[squared labs] provides design services, scientific illustration, and custom web based tools to support research at the University of Connecticut. The mark's design speaks to the kinetic, possibility-rich nature of the space. The &lsquo;⬚&rsquo; provides an area for activation, while the monospaced type of the wordmark harkens to software-based origin of the group.",
+    "brief": "<a href=\"https://squaredlabs.uconn.edu\" target=\"blank_\">[squared labs]</a> provides design services, scientific illustration, and custom web based tools to support research at the University of Connecticut. The mark's design speaks to the kinetic, possibility-rich nature of the space. The &lsquo;⬚&rsquo; provides an area for activation, while the monospaced type of the wordmark harkens to software-based origin of the group.",
     "imgs": [
       "word-blue-bg.svg",
       "word-nobg.svg",
@@ -182,30 +190,13 @@
       "fdfo-13.jpg"
     ]
   },
-  "ibqap": {
-    "name": "It’s Been Quite a Process",
-    "id": "ibqap",
-    "client": "Self Initiated",
-    "time": "2017",
-    "scope": "Book",
-    "brief": "A collation of notes, sketches, iterations, feedback, and responses of each project undertaken while at CSM. Handmade in an edition of two, printed on 95GSM STARWHITE Sirius paper with a 175GSM Plike paper cover, which sports carbon transferred type.",
-    "imgs": [
-      "ibqap-1.jpg",
-      "ibqap-2.jpg",
-      "ibqap-3.jpg",
-      "ibqap-4.jpg",
-      "ibqap-5.jpg",
-      "ibqap-6.jpg",
-      "ibqap-7.jpg"
-    ]
-  },
-  "abuse": {
+  "abusability": {
     "name": "Abusability",
-    "id": "abuse",
+    "id": "abusability",
     "client": "Self Initiated",
     "time": "2017",
     "scope": "Book",
-    "brief": "Manipulating physical media to create unique graphic styles and reveal natural systems. How do drastic scale changes affect media that are designed to be static? Balloons were decorated with numerous substances: acrylic paint, spray paint, screen printed plastisol ink, markers, and more, then inflated and deflated. Each application was thoroughly documented with an alpha-numeric ID system. The resulting set of complex textures and otherwordly landscapes were extracted into a graphic language.",
+    "brief": "An exercise in manipulating physical media to create unique graphic styles and reveal natural systems. How do drastic scale changes affect media that are designed to be static? Balloons were decorated with numerous substances: acrylic paint, spray paint, screen printed plastisol ink, markers, and more, then inflated and deflated. Each application was thoroughly documented with an alpha-numeric ID system. The resulting set of complex textures and otherwordly landscapes were extracted into a graphic language.",
     "imgs": [
       "abuse-3.jpg",
       "abuse-4.jpg",
