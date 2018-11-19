@@ -1,35 +1,7 @@
 <template>
   <div>
     <p>
-      Alec Marcus is a <nuxt-link
-        to="/projects/c3p"
-        class="option-one">communication designer</nuxt-link>, <nuxt-link
-          to="/projects/c3p"
-          class="option-two">graphic designer</nuxt-link>, <nuxt-link
-            to="/projects/c3p"
-            class="option-three">web designer</nuxt-link>, <nuxt-link
-              to="/projects/c3p"
-              class="option-four">web developer</nuxt-link>, and <nuxt-link
-                to="/projects/c3p"
-                class="option-five">maker</nuxt-link> intested in <nuxt-link
-                  to="/projects/c3p"
-                  class="option-one">media studies</nuxt-link>, <nuxt-link
-                    to="/projects/c3p"
-                    class="option-two">ethical [digital] product design</nuxt-link>, <nuxt-link
-                      to="/projects/c3p"
-                      class="option-three">new &amp; experimental technologies</nuxt-link>, and <nuxt-link
-                        to="/projects/c3p"
-                        class="option-four">an open source future</nuxt-link> trying to <nuxt-link
-                          to="/projects/c3p"
-                          class="option-one">always be learning</nuxt-link>, <nuxt-link
-                            to="/projects/c3p"
-                            class="option-two">subvert questionable realtionships with technology</nuxt-link>, <nuxt-link
-                              to="/projects/c3p"
-                              class="option-three">collaborate</nuxt-link>, <nuxt-link
-                                to="/projects/c3p"
-                                class="option-four">promote intellectual pursuit</nuxt-link>, and <nuxt-link
-                                  to="/projects/c3p"
-                                  class="option-five">modularize everything</nuxt-link>.
+      Alec Marcus is a <v-about-snippet project="cor2e-symposium">communication designer</v-about-snippet>, <v-about-snippet project="ose">graphic designer</v-about-snippet>, <v-about-snippet project="lincus">web designer</v-about-snippet>, <v-about-snippet project="slabs">web developer</v-about-snippet>, and maker intested in media studies, <v-about-snippet project="lincus">ethical [digital] product design</v-about-snippet>, <v-about-snippet project="hr">new &amp; experimental technologies</v-about-snippet>, and <v-about-snippet project="ose">an open source future</v-about-snippet> trying to always be learning, <v-about-snippet project="hr">subvert questionable realtionships with technology</v-about-snippet>, collaborate, <v-about-snippet project="lincus">promote intellectual pursuit</v-about-snippet>, and modularize everything.
     </p>
     <p>
       He can be reached by <a href="tel:+18603083030">phone</a> or <a href="mailto:hi@alecmarc.us">electronic mail</a>.
@@ -44,13 +16,24 @@
         href="https://colophon-foundry.org"
         target="blank_">Colophon Foundry</a> for their work on the typeface <a
           href="https://www.colophon-foundry.org/typefaces/basis-grotesque/"
-          target="blank_">Basis Grotesque</a>, which this website is set in.
+          target="blank_">Basis Grotesque</a>, in which this website is set.
     </p>
   </div>
 </template>
 
 <script>
-export default {}
+import VAboutSnippet from '~/components/VAboutSnippet.vue'
+
+export default {
+  components: {
+    VAboutSnippet
+  },
+  methods: {
+    showOptions: function(project) {
+      console.log(this.$refs)
+    }
+  }
+}
 </script>
 
 <style scoped>
@@ -59,23 +42,7 @@ div {
   padding-bottom: 63px;
 }
 
-.option-one:hover ~ .option-one {
-  color: #2e2e2e;
-}
-
-.option-two:hover ~ .option-two {
-  color: #2e2e2e;
-}
-
-.option-three:hover ~ .option-three {
-  color: #2e2e2e;
-}
-
-.option-four:hover ~ .option-four {
-  color: #2e2e2e;
-}
-
-.option-five:hover ~ .option-five {
-  color: #2e2e2e;
+.focus {
+  color: inherit;
 }
 </style>
