@@ -1,7 +1,7 @@
 <template>
   <div>
     <article>
-      <p>{{ activeProject.brief }}</p>
+      <p v-html="activeProject.brief"/>
     </article>
     <article >
       <video
@@ -19,14 +19,19 @@
         :src="'/img/'+activeProject.id+'/'+img"
         :alt="activeProject.name">
     </article>
+    <v-project-nav />
   </div>
 </template>
 
 <script>
+import VProjectNav from '~/components/VProjectNav.vue'
 import { mapState, mapActions } from 'vuex'
 import projects from '~/assets/projects.json'
 
 export default {
+  components: {
+    VProjectNav
+  },
   validate({ params }) {
     return isNaN(+params.id)
   },
@@ -77,5 +82,9 @@ video {
   display: block;
   max-width: 100vw;
   margin: 119px auto;
+}
+
+div {
+  margin-bottom: 125px;
 }
 </style>
