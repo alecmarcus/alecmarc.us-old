@@ -1,9 +1,18 @@
 {
+  "cor2e-symposium": {
+    "name": "COR&sup2;E Symposium",
+    "id": "co2re-symposium",
+    "client": "COR&sup2;E",
+    "time": "2018",
+    "scope": "Identity, Print & Digital Ad Campaign, Event Collateral",
+    "brief": "The Center for Open Research Resources and Equipment at the Univeristy of Connecticut held its first Symposium on 19 November, 2018. Composed of 9 facilities, each housing state-of-the-art equipment, run by top researchers, COR&sup2;E is a key factor on UConn's Tier 1 research institution status. The symposium was a gathering of facility users, directors, and research students and faculty to discuss and learn about the resources made available by COR&sup2;E. Flyers, digital invitations, postcards/schedules, and informational posters were rendered for the event.",
+    "imgs": []
+  },
   "lincus": {
     "name": "Lincus",
     "id": "lincus",
     "client": "Chief Design Officer",
-    "time": "Summer 2018 &ndash; Present",
+    "time": "2018 / Ongoing",
     "scope": "Identity, <a href=\"https://linc.us\" target=\"blank_\">Wesbite, Application</a>",
     "brief": "A startup whose flasgship product is a search engine for scientific research expertise. The identity was designed to reflect the idea of interconnection, while invoking a sense of community and intellectualism. The app is presently in beta, and has already been licensed to Yale University and UMass Amherst.",
     "imgs": [
@@ -14,11 +23,38 @@
       "lincus-5.svg"
     ]
   },
+  "groove": {
+    "name": "GROOVE Recording",
+    "id": "groove",
+    "client": "GROOVE Recording Studio",
+    "time": "2018",
+    "scope": "Brand Identity, <a href=\"https://grooverecording.studio\" target=\"blank_\">Website</a> (Des + Dev), +++",
+    "brief": "GROOVE Recording is the recording practice of a seasoned drummer who brings years of performance into the studio setting. In order to stand out in a saturated, cut-and-dry market, the brand invokes rhythm and movement, composed of a suite of grooves by which to present itself.",
+    "imgs": [
+      "groove_animation_1.gif",
+      "groove_animation_2.gif",
+      "mockup-perspective-white.jpg",
+      "mockup-perspective-black.jpg",
+      "pattern-shirt-front.jpg",
+      "pattern-shirt-back.jpg",
+      "promo-gif-1.gif",
+      "promo-gif-2.gif",
+      "promo-gif-3.gif",
+      "large-pattern-1.png",
+      "large-pattern-2.png",
+      "groove-prcss-1.jpg",
+      "groove-prcss-3.png",
+      "groove-prcss-4.png",
+      "groove-prcss-6.png",
+      "groove-prcss-7.png",
+      "groove-prcss-8.png"
+    ]
+  },
   "c3p": {
     "name": "Close Third Person",
     "id": "c3p",
     "client": "University of Connecticut 2018 MFA Exhibition",
-    "time": "Spring 2018",
+    "time": "2018",
     "scope": "Identity, Print Campaign, Exhibition Collateral",
     "brief": "An identity for the UConn 2018 Master of Fine Arts Exhibition. The sliding mark and overlapping graphics speak to shifting perspectives and proximities; a quiet, thoughtful dance that guided each graduate during their time at the University.",
     "imgs": [
@@ -36,7 +72,7 @@
     "name": "HYPERREAL",
     "id": "hr",
     "client": "Self Initiated",
-    "time": "Spring 2018",
+    "time": "2018",
     "scope": "Silkscreen posters, Book, <a href=\"https://instaface.alecmarc.us\" target=\"blank_\">Mobile Web App</a>, 3D",
     "brief": "HYPERREAL explores how digital technology shapes our understanding of reality. The project consists of several experiments that address the duality of modern existence: physicality (real) and intangibility (hyperreal). The experiments are intended to invoke questions as the viewer experiences and interacts with them. HYPERREAL intends to illuminate aspects of our lives which are new, complex, and only partially understood, yet often overlooked and easily accepted.",
     "imgs": [
@@ -60,30 +96,11 @@
       "hr-19.gif"
     ]
   },
-  "slabs": {
-    "name": "[squared labs]",
-    "id": "slabs",
-    "client": "[squared labs]/University of Connecticut",
-    "time": "Summer 2017",
-    "scope": "Identity, <a href=\"https://squaredlabs.uconn.edu\" target=\"blank_\">Website</a>, +++",
-    "brief": "[squared labs] provides design services, scientific illustration, and custom web based tools to support research at the University of Connecticut. The mark's design speaks to the kinetic, possibility-rich nature of the space. The &lsquo;⬚&rsquo; provides an area for activation, while the monospaced type of the wordmark harkens to software-based origin of the group.",
-    "imgs": [
-      "word-blue-bg.svg",
-      "word-nobg.svg",
-      "square-black.svg",
-      "stack-nobg.svg",
-      "site-1.png",
-      "site-2.png",
-      "site-3.png",
-      "site-4.png",
-      "stamp.svg"
-    ]
-  },
   "pgc": {
     "name": "Plants & Global Change",
     "id": "pgc",
     "client": "University of Connecticut, Jeff Seemann",
-    "time": "Spring 2018",
+    "time": "2018",
     "scope": "Identity",
     "brief": "The Plant & Global Change Research Lab researches plant life in the context of global warming and climate change. The central wave of the mark is representative of the yearly upward trend in atmospheric carbon dioxide concentration, known as the Keeling Curve. The acronym emerging from the wave invokes the intersection of plant biology and global change, while also providing potential for future activation among the peaks and valleys.",
     "imgs": [
@@ -109,7 +126,7 @@
     "name": "Seemann Lab",
     "id": "sl",
     "client": "University of Connecticut, Jeff Seemann",
-    "time": "Spring 2018",
+    "time": "2018",
     "scope": "Website",
     "brief": "A website for the laboratory of Jeff Seemann, a distinguished researcher, professor, and administrator at the University of Connecticut.",
     "imgs": [
@@ -123,26 +140,30 @@
       "sl-8.png"
     ]
   },
-  "ose": {
-    "name": "Open Source Everything",
-    "id": "ose",
-    "client": "Self Initiated",
-    "time": "Spring 2016",
-    "scope": "Posters, Pamphlet, 3D",
-    "brief": "A series of posters for the Open Source Everything manifesto, which purports a society built around truth, transparency, and trust. Access to information on the posters is actively obstructed through visual complexity and coded language. Each reflects one of the three main paradigms of computing: the mainframe, the cloud, and edge computing. Accompanying is a US English QWERTY keyboard cover screen printed with binary encoded characters. The piece contextualizes thought, input/output, and screens with the actual information stored on hard drives.",
+  "slabs": {
+    "name": "[squared labs]",
+    "id": "slabs",
+    "client": "[squared labs]/University of Connecticut",
+    "time": "2017",
+    "scope": "Identity, <a href=\"https://squaredlabs.uconn.edu\" target=\"blank_\">Website</a>, +++",
+    "brief": "[squared labs] provides design services, scientific illustration, and custom web based tools to support research at the University of Connecticut. The mark's design speaks to the kinetic, possibility-rich nature of the space. The &lsquo;⬚&rsquo; provides an area for activation, while the monospaced type of the wordmark harkens to software-based origin of the group.",
     "imgs": [
-      "ose-poster-1.jpg",
-      "ose-poster-2.jpg",
-      "ose-poster-3.jpg",
-      "ose-4.jpg",
-      "ose-prcss-1.jpg"
+      "word-blue-bg.svg",
+      "word-nobg.svg",
+      "square-black.svg",
+      "stack-nobg.svg",
+      "site-1.png",
+      "site-2.png",
+      "site-3.png",
+      "site-4.png",
+      "stamp.svg"
     ]
   },
   "fdfo": {
     "name": "Further Down & Farther Out",
     "id": "fdfo",
     "client": "Self Initiated",
-    "time": "Spring 2017",
+    "time": "2017",
     "scope": "Book, Audio",
     "brief": "Perturbed by the homelessness epidemic that I witnessed for the first time while living in London, I made a &lsquo;walking tour&rsquo; that forces participants to recognize the homeless as they travel the city. My intent was to humanize the displaced; to bring their personalities, histories, and lives to the forefront of people's minds. The tour is designed to be taken while audio recordings of conversations between myself and displaced individuals are listened to through headphones. The accompanying book is a retrospective on one such conversation.",
     "imgs": [
@@ -165,7 +186,7 @@
     "name": "It’s Been Quite a Process",
     "id": "ibqap",
     "client": "Self Initiated",
-    "time": "Spring 2017",
+    "time": "2017",
     "scope": "Book",
     "brief": "A collation of notes, sketches, iterations, feedback, and responses of each project undertaken while at CSM. Handmade in an edition of two, printed on 95GSM STARWHITE Sirius paper with a 175GSM Plike paper cover, which sports carbon transferred type.",
     "imgs": [
@@ -182,7 +203,7 @@
     "name": "Abusability",
     "id": "abuse",
     "client": "Self Initiated",
-    "time": "Spring 2017",
+    "time": "2017",
     "scope": "Book",
     "brief": "Manipulating physical media to create unique graphic styles and reveal natural systems. How do drastic scale changes affect media that are designed to be static? Balloons were decorated with numerous substances: acrylic paint, spray paint, screen printed plastisol ink, markers, and more, then inflated and deflated. Each application was thoroughly documented with an alpha-numeric ID system. The resulting set of complex textures and otherwordly landscapes were extracted into a graphic language.",
     "imgs": [
@@ -200,31 +221,19 @@
       "abuse-14.jpg"
     ]
   },
-  "groove": {
-    "name": "GROOVE Recording",
-    "id": "groove",
-    "client": "GROOVE Recording Studio",
-    "time": "Summer 2018",
-    "scope": "Brand Identity, <a href=\"https://grooverecording.studio\" target=\"blank_\">Website</a> (Des + Dev), +++",
-    "brief": "GROOVE Recording is the recording practice of a seasoned drummer who brings years of performance into the studio setting. In order to stand out in a saturated, cut-and-dry market, the brand invokes rhythm and movement, composed of a suite of grooves by which to present itself.",
+  "ose": {
+    "name": "Open Source Everything",
+    "id": "ose",
+    "client": "Self Initiated",
+    "time": "2016",
+    "scope": "Posters, Pamphlet, 3D",
+    "brief": "A series of posters for the Open Source Everything manifesto, which purports a society built around truth, transparency, and trust. Access to information on the posters is actively obstructed through visual complexity and coded language. Each reflects one of the three main paradigms of computing: the mainframe, the cloud, and edge computing. Accompanying is a US English QWERTY keyboard cover screen printed with binary encoded characters. The piece contextualizes thought, input/output, and screens with the actual information stored on hard drives.",
     "imgs": [
-      "groove_animation_1.gif",
-      "groove_animation_2.gif",
-      "mockup-perspective-white.jpg",
-      "mockup-perspective-black.jpg",
-      "pattern-shirt-front.jpg",
-      "pattern-shirt-back.jpg",
-      "promo-gif-1.gif",
-      "promo-gif-2.gif",
-      "promo-gif-3.gif",
-      "large-pattern-1.png",
-      "large-pattern-2.png",
-      "groove-prcss-1.jpg",
-      "groove-prcss-3.png",
-      "groove-prcss-4.png",
-      "groove-prcss-6.png",
-      "groove-prcss-7.png",
-      "groove-prcss-8.png"
+      "ose-poster-1.jpg",
+      "ose-poster-2.jpg",
+      "ose-poster-3.jpg",
+      "ose-4.jpg",
+      "ose-prcss-1.jpg"
     ]
   }
 }
