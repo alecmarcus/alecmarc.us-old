@@ -1,11 +1,16 @@
 <template>
   <nav v-if="prevProjId && nextProjId">
-    <nuxt-link
-      :to="'/projects/'+prevProjId"
-      @click="setActiveProject(prevProjId)">&larr; Previous</nuxt-link>
-    <nuxt-link
-      :to="'/projects/'+nextProjId"
-      @click="setActiveProject(nextProjId)">&rarr; Next</nuxt-link>
+    <span>{{ projectArray.indexOf(activeProjectId) }} / {{ projectArray.length }}</span>
+    <span>
+      <nuxt-link
+        :to="'/projects/'+prevProjId"
+        class="previous"
+        @click="setActiveProject(prevProjId)">Previous</nuxt-link> •
+      <nuxt-link
+        :to="'/projects/'+nextProjId"
+        class="next"
+        @click="setActiveProject(nextProjId)">Next</nuxt-link>
+    </span>
   </nav>
 </template>
 
@@ -26,16 +31,8 @@ export default {
       projectArray: state => state.projectView.projectArray
     })
   },
-  watch: {
-    activeProject: function() {
-      let activeProjectIndex = this.projectArray.indexOf(this.activeProjectId)
-      this.prevProjId = this.projectArray[
-        this.getPrevProjectId(activeProjectIndex)
-      ]
-      this.nextProjId = this.projectArray[
-        this.getNextProjectId(activeProjectIndex)
-      ]
-    }
+  mounted() {
+    this.updateNavLinks()
   },
   methods: {
     ...mapActions({ setActiveProject: 'projectView/setActiveProject' }),
@@ -48,10 +45,51 @@ export default {
       return activeProjectIndex + 1 < this.projectArray.length
         ? activeProjectIndex + 1
         : 0
+    },
+    updateNavLinks: function() {
+      let activeProjectIndex = this.projectArray.indexOf(this.activeProjectId)
+      this.prevProjId = this.projectArray[
+        this.getPrevProjectId(activeProjectIndex)
+      ]
+      this.nextProjId = this.projectArray[
+        this.getNextProjectId(activeProjectIndex)
+      ]
     }
   }
 }
 </script>
 
 <style scoped>
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.next:after {
+  content: '→';
+  padding-left: 0.3em;
+  transform: translateX(0.3em);
+}
+
+.previous:before {
+  content: '←';
+  padding-right: 0.3em;
+  transform: translateX(-0.3em);
+}
+
+.next:after,
+.previous:before {
+  display: inline-block;
+  color: #2e2e2e;
+  opacity: 0;
+  transition: all 0.15s ease;
+}
+
+.next:hover:after,
+.previous:hover:before {
+  opacity: 1;
+  transform: translateX(0);
+}
 </style>
