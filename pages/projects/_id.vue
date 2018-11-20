@@ -78,7 +78,7 @@ export default {
 
 <style scoped>
 p {
-  margin: 20px;
+  margin: 1.25rem;
 }
 
 video {
@@ -88,6 +88,12 @@ video {
 }
 
 section {
-  margin-bottom: calc((107rem / 16) + 1.25rem);
+  margin-bottom: calc(var(--nav-height) + 1.25rem);
+}
+
+@media (max-width: 450px) {
+  section {
+    margin-bottom: calc(1.7 * var(--nav-height));
+  }
 }
 </style>

@@ -35,7 +35,7 @@ div {
   text-align: center;
   max-width: 100vw;
   overflow: hidden;
-  margin: calc(49rem / 16) auto;
+  margin: var(--font-size) auto;
   cursor: url('/img/plus.svg'), pointer;
 }
 

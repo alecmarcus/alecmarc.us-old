@@ -17,18 +17,35 @@ export default {
 
 <style scoped>
 main {
-  font-size: calc(49rem / 16);
+  --font-size: calc(49rem / 16);
+  --leading: 1.25;
+  --nav-height: calc((var(--font-size) * var(--leading)) + (2 * 1.25rem) + 4px);
+  line-height: var(--leading);
+  font-size: var(--font-size);
+}
+
+@media (max-width: 900px) {
+  main {
+    --font-size: calc(39rem / 16);
+  }
+}
+
+@media (max-width: 700px) {
+  main {
+    --font-size: calc(31rem / 16);
+  }
 }
 
 #primaryNav {
   position: fixed;
   width: 100vw;
-  height: 100vh;
-  top: calc(100vh - (105rem / 16));
+  min-height: var(--font-size);
+  max-height: 100vh;
+  bottom: 0;
   background: #ffffff;
 }
 
 #primaryNav.projects {
-  top: 0;
+  min-height: 100vh;
 }
 </style>

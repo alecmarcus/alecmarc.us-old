@@ -34,13 +34,12 @@ export default {
 </script>
 
 <style scoped>
-nav,
-div {
-  transition: all 0.5s ease;
+nav {
+  transition: min-height 0.5s ease;
 }
 
 div {
-  transition-delay: 0.3s;
+  transition: border-color 0.3s ease 0.5s;
 }
 
 nav div {
