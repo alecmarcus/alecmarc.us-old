@@ -36,6 +36,12 @@ main {
   }
 }
 
+@media (max-width: 450px) {
+  main {
+    --font-size: calc(25rem / 16);
+  }
+}
+
 #primaryNav {
   position: fixed;
   width: 100vw;
