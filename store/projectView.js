@@ -1,4 +1,4 @@
-const projects = env.projects
+const projects = process.env.projects
 
 export const state = () => ({
   projectArray: Object.keys(projects),
