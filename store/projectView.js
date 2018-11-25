@@ -1,6 +1,5 @@
-const projects = process.env.projects
-
 export const state = () => ({
+  projects: process.env.projects,
   projectArray: Object.keys(projects),
   activeProjectId: null,
   activeProject: null
