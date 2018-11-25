@@ -3,7 +3,7 @@
     :class="width"
     @click="focus($event)">
     <img
-      :src="'/img/'+projectId+'/'+fileName"
+      :src="imagePath"
       :alt="projectName">
   </div>
 </template>
@@ -15,6 +15,11 @@ export default {
     projectName: { type: String, required: true },
     fileName: { type: String, required: true },
     width: { type: String, required: true }
+  },
+  computed: {
+    imagePath: function() {
+      return require('~/assets/img/' + this.projectId + '/' + this.fileName)
+    }
   },
   methods: {
     focus: function($event) {
