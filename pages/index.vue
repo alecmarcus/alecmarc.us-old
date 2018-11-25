@@ -7,17 +7,20 @@
 <script>
 import VAboutSection from '~/components/VAboutSection.vue'
 import { mapState, mapActions } from 'vuex'
-import projects from '~/assets/projects.json'
+// import projects from '~/assets/projects.json'
 
 export default {
   components: {
     VAboutSection
   },
-  data: () => ({
-    projects
-  }),
-  computed: mapState({
-    activeProject: state => state.projectView.activeProject
-  })
+  // data: () => ({
+  //   projects
+  // }),
+  computed: {
+    ...mapState({
+      projects: state => state.projectView.projects,
+      activeProject: state => state.projectView.activeProject
+    })
+  }
 }
 </script>

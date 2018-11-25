@@ -1,4 +1,4 @@
-import projects from '~/assets/projects.json'
+const projects = env.projects
 
 export const state = () => ({
   projectArray: Object.keys(projects),

@@ -14,19 +14,22 @@
 <script>
 import VProjectListItem from '~/components/VProjectListItem.vue'
 import { mapState } from 'vuex'
-import projects from '~/assets/projects.json'
+// import projects from '~/assets/projects.json'
 
 export default {
   transition: 'slide',
   components: {
     VProjectListItem
   },
-  data: () => ({
-    projects
-  }),
-  computed: mapState({
-    activeProject: state => state.projectView.activeProject
-  })
+  // data: () => ({
+  //   projects
+  // }),
+  computed: {
+    ...mapState({
+      projects: state => state.projectView.projects,
+      activeProject: state => state.projectView.activeProject
+    })
+  }
 }
 </script>
 

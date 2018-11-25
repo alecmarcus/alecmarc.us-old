@@ -29,7 +29,7 @@
 import VProjectNav from '~/components/VProjectNav.vue'
 import VProjectImage from '~/components/VProjectImage.vue'
 import { mapState, mapActions } from 'vuex'
-import projects from '~/assets/projects.json'
+// import projects from '~/assets/projects.json'
 
 export default {
   components: {
@@ -54,11 +54,12 @@ export default {
       title: this.name
     }
   },
-  data: () => ({
-    projects
-  }),
+  // data: () => ({
+  //   projects
+  // }),
   computed: {
     ...mapState({
+      projects: state => state.projectView.projects,
       activeProject: state => state.projectView.activeProject,
       activeProjectId: state => state.projectView.activeProjectId,
       projectArray: state => state.projectView.projectArray

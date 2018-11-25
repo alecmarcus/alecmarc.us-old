@@ -23,6 +23,9 @@ module.exports = {
       }
     ]
   },
+  env: {
+    projects: process.env.PROJECTS_URL
+  },
 
   /*
   ** Customize the progress-bar color

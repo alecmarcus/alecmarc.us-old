@@ -24,12 +24,15 @@
 
 <script>
 import { mapState, mapActions } from 'vuex'
-import projects from '~/assets/projects.json'
+// import projects from '~/assets/projects.json'
 
 export default {
-  computed: mapState({
-    activeProject: state => state.projectView.activeProject
-  })
+  computed: {
+    ...mapState({
+      projects: state => state.projectView.projects,
+      activeProject: state => state.projectView.activeProject
+    })
+  }
 }
 </script>
 
