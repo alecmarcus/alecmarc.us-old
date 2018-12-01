@@ -49,6 +49,7 @@ main {
   max-height: 100vh;
   bottom: 0;
   background: #ffffff;
+  z-index: 1;
 }
 
 #primaryNav.projects {

@@ -1,10 +1,11 @@
 <template>
-  <div
-    :class="width"
-    @click="focus($event)">
+  <div :class="width">
     <img
       :src="imagePath"
       :alt="projectName">
+    <p v-if="imageCaption">
+      {{ imageCaption }}
+    </p>
   </div>
 </template>
 
@@ -14,20 +15,12 @@ export default {
     projectId: { type: String, required: true },
     projectName: { type: String, required: true },
     fileName: { type: String, required: true },
-    width: { type: String, required: true }
+    width: { type: String, required: true },
+    imageCaption: { type: String, default: null }
   },
   computed: {
     imagePath: function() {
       return require('~/assets/img/' + this.projectId + '/' + this.fileName)
-    }
-  },
-  methods: {
-    focus: function($event) {
-      if ($event.target.classList.contains('focused')) {
-        $event.target.classList.remove('focused')
-      } else {
-        $event.target.classList.add('focused')
-      }
     }
   }
 }
@@ -40,8 +33,14 @@ div {
   text-align: center;
   max-width: 100vw;
   overflow: hidden;
-  margin: var(--font-size) auto;
-  cursor: url('/img/plus.svg'), pointer;
+  margin: 1.25rem auto calc(var(--font-size) * 1.25);
+}
+
+p {
+  font-size: calc(var(--font-size) / 1.25 / 1.25 / 1.25 / 1.25);
+  margin: 0 1em;
+  text-align: left;
+  position: absolute;
 }
 
 div,
@@ -85,18 +84,6 @@ img {
 .centered,
 .full {
   display: block;
-}
-
-div.focused {
-  width: 100vw;
-  height: 90vh;
-  cursor: url('/img/minus.svg'), pointer;
-}
-
-div.focused img {
-  object-fit: contain;
-  width: 100%;
-  height: 100%;
 }
 
 @media (max-width: 900px) {

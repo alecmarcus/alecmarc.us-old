@@ -31,6 +31,11 @@ export default {
 </script>
 
 <style scoped>
+div {
+  z-index: 2;
+  position: relative;
+}
+
 ul {
   margin: var(--nav-height) 0 0 1.25rem;
   padding-top: 1.25rem;
