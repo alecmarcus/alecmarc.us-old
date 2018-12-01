@@ -1,16 +1,29 @@
 <template>
   <section>
-    <article>
+    <article class="description">
       <p v-html="activeProject.brief"/>
+      <div>
+        <div>
+          <h1>Role:</h1>
+          <p>{{ activeProject.role }}</p>
+        </div>
+        <div>
+          <h2>Media:</h2>
+          <p>{{ activeProject.media }}</p>
+        </div>
+        <div>
+          <h3>Scope:</h3>
+          <p v-html="activeProject.scope" />
+        </div>
+      </div>
     </article>
-    <article >
-      <video
+    <article v-if="activeProject.vids">
+      <v-project-video
         v-for="vid in activeProject.vids"
         :key="vid"
-        :src="'/img/'+activeProject.id+'/'+vid"
-        autoplay
-        muted
-        loop />
+        :file-name="vid"
+        :project-id="activeProject.id"
+        :project-name="activeProject.name" />
     </article>
     <article>
       <v-project-image
@@ -19,7 +32,8 @@
         :file-name="img.fileName"
         :width="img.width"
         :project-id="activeProject.id"
-        :project-name="activeProject.name" />
+        :project-name="activeProject.name"
+        :image-caption="img.caption" />
     </article>
     <v-project-nav />
   </section>
@@ -28,13 +42,15 @@
 <script>
 import VProjectNav from '~/components/VProjectNav.vue'
 import VProjectImage from '~/components/VProjectImage.vue'
+import VProjectVideo from '~/components/VProjectVideo.vue'
 import { mapState, mapActions } from 'vuex'
 import projects from '~/assets/projects.json'
 
 export default {
   components: {
     VProjectNav,
-    VProjectImage
+    VProjectImage,
+    VProjectVideo
   },
   validate({ params }) {
     return isNaN(+params.id)
@@ -77,8 +93,33 @@ export default {
 </script>
 
 <style scoped>
-p {
+.description {
+  font-size: calc(var(--font-size) / 1.25 / 1.25);
   margin: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.description > * {
+  width: calc((100% - 1.25rem) / 2);
+}
+
+.description > div {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.description > div > div:not(:last-of-type) {
+  margin-bottom: 1.25em;
+}
+
+p,
+h1,
+h2,
+h3 {
+  font-size: inherit;
+  margin: 0;
+  display: block;
 }
 
 video {
