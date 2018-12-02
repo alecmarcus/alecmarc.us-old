@@ -7,7 +7,7 @@
     "role": "Art direction, design",
     "media": "Print, digital animation",
     "scope": "Identity, large format posters, postcards, animated invitations",
-    "brief": "The Center for Open Research Resources and Equipment at the UConn held its first Symposium in November 2018. COR&sup2;E is composed of 9 applied science reserach facilities. At the symposium, directors and users gathered to discuss the services and equipment at each facility. Using COR&sup2;E's identity, the event's design and typography travel, converge, and undulate, as crowds do.",
+    "brief": "The Center for Open Research Resources and Equipment at UConn held its first Symposium in November 2018. COR&sup2;E is composed of 9 applied science reserach facilities. At the symposium, directors and users gathered to discuss the services and equipment at each facility. Using COR&sup2;E's identity, the event's design and typography travel, converge, and undulate, as crowds do.",
     "imgs": [
       {
         "fileName": "cor2e-symposium-1.png",
@@ -25,7 +25,8 @@
         "fileName": "nmr-poster.jpg",
         "width": "half centered"
       }
-    ]
+    ],
+    "vids": ["animated-invite.webm"]
   },
   "lincus": {
     "name": "Lincus",
