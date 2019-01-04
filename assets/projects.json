@@ -47,19 +47,23 @@
         "width": "full"
       },
       {
-        "fileName": "lincus-3.svg",
+        "fileName": "landing.svg",
         "width": "full"
       },
       {
-        "fileName": "lincus-4.svg",
+        "fileName": "footer.svg",
         "width": "full"
       },
       {
-        "fileName": "lincus-5.svg",
+        "fileName": "pre-search.svg",
         "width": "full"
       },
       {
-        "fileName": "lincus-6.svg",
+        "fileName": "atom.svg",
+        "width": "full"
+      },
+      {
+        "fileName": "map.svg",
         "width": "full"
       }
     ]
