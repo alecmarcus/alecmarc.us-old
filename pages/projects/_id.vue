@@ -1,7 +1,7 @@
 <template>
   <section>
     <article class="description">
-      <p v-html="activeProject.brief"/>
+      <p v-html="activeProject.brief" />
       <div>
         <div>
           <h1>Role:</h1>
@@ -23,7 +23,8 @@
         :key="vid"
         :file-name="vid"
         :project-id="activeProject.id"
-        :project-name="activeProject.name" />
+        :project-name="activeProject.name"
+      />
     </article>
     <article>
       <v-project-image
@@ -33,7 +34,8 @@
         :width="img.width"
         :project-id="activeProject.id"
         :project-name="activeProject.name"
-        :image-caption="img.caption" />
+        :image-caption="img.caption"
+      />
     </article>
     <v-project-nav />
   </section>
@@ -94,7 +96,7 @@ export default {
 
 <style scoped>
 .description {
-  font-size: calc(var(--font-size) / 1.25 / 1.25);
+  font-size: calc(var(--font-size) / 1.25 / 1.25 / 1.25 / 1.25);
   margin: 1.25rem;
   display: flex;
   justify-content: space-between;
