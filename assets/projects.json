@@ -39,31 +39,19 @@
     "brief": "A startup whose flasgship product is a search engine for scientific research expertise. The identity was designed to reflect the idea of interconnection, while invoking a sense of community and intellectualism.",
     "imgs": [
       {
-        "fileName": "lincus-1.svg",
+        "fileName": "landing.png",
         "width": "full"
       },
       {
-        "fileName": "lincus-2.svg",
+        "fileName": "search.png",
         "width": "full"
       },
       {
-        "fileName": "landing.svg",
+        "fileName": "results.png",
         "width": "full"
       },
       {
-        "fileName": "footer.svg",
-        "width": "full"
-      },
-      {
-        "fileName": "pre-search.svg",
-        "width": "full"
-      },
-      {
-        "fileName": "atom.svg",
-        "width": "full"
-      },
-      {
-        "fileName": "map.svg",
+        "fileName": "results-map.png",
         "width": "full"
       }
     ]
