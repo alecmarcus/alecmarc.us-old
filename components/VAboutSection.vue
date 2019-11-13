@@ -9,14 +9,14 @@
     <p>
       He designed and developed this website, which is open source. As such, he invites fellow creatives to <a
         href="https://github.com/alecmarcus/alecmarc.us"
-        target="blank_">fork it on GitHub</a>, make it their own, and use it to display their work.
+        target="_blank">fork it on GitHub</a>, make it their own, and use it to display their work.
     </p>
     <p>
       He thanks <a
         href="https://colophon-foundry.org"
-        target="blank_">Colophon Foundry</a> for their work on the typeface <a
+        target="_blank">Colophon Foundry</a> for their work on the typeface <a
           href="https://www.colophon-foundry.org/typefaces/basis-grotesque/"
-          target="blank_">Basis Grotesque</a>, in which this website is set.
+          target="_blank">Basis Grotesque</a>, in which this website is set.
     </p>
   </div>
 </template>

@@ -35,7 +35,7 @@
     "time": "2018 / Ongoing",
     "role": "Art direction, design, development",
     "media": "Web: Node.js + Nuxt.js",
-    "scope": "Identity, <a href=\"https://linc.us\" target=\"blank_\">wesbite, web application</a>",
+    "scope": "Identity, <a href=\"https://linc.us\" target=\"_blank\">wesbite, web application</a>",
     "brief": "A startup whose flasgship product is a search engine for scientific research expertise. The identity was designed to reflect the idea of interconnection, while invoking a sense of community and intellectualism.",
     "imgs": [
       {
@@ -75,7 +75,7 @@
     "time": "2018",
     "role": "Art direction, design, development",
     "media": "Web, digital animation, print, clothing",
-    "scope": "Brand identity, <a href=\"https://grooverecording.studio\" target=\"blank_\">website</a>, t-shirts, business cards, letterhead, invoices, animated advertisements",
+    "scope": "Brand identity, <a href=\"https://grooverecording.studio\" target=\"_blank\">website</a>, t-shirts, business cards, letterhead, invoices, animated advertisements",
     "brief": "GROOVE Recording is the recording practice of a seasoned drummer who brings years of performance into the studio setting. In order to stand out in a saturated, cut-and-dry market, the brand invokes rhythm and movement, composed of a suite of grooves by which to present itself.",
     "imgs": [
       {
@@ -148,7 +148,7 @@
     "time": "2018",
     "role": "Art direction, design",
     "media": "Print, web: Node.js + Nuxt.js + facial recognition + live streaming, digital animation, digital 3D, physical 3D",
-    "scope": "Silkscreen posters, book, <a href=\"https://instaface.alecmarc.us\" target=\"blank_\">web application</a>, typeface, animated posters, laser-cut acrylic",
+    "scope": "Silkscreen posters, book, <a href=\"https://instaface.alecmarc.us\" target=\"_blank\">web application</a>, typeface, animated posters, laser-cut acrylic",
     "brief": "HYPERREAL was an exhibition that addressed the duality of modern existence: physicality (real) and intangibility (hyperreal). Each component was meant to invoke questions as viewers experienced and interacted with them. HYPERREAL's intent was to illuminate aspects of our lives which are new, complex, and only partially understood, yet often overlooked and easily accepted.",
     "imgs": [
       {
@@ -339,7 +339,7 @@
     "role": "Art direction, design, development",
     "media": "Web: Node.js + Nuxt.js + facial recognition",
     "scope": "Web application",
-    "brief": "<a href=\"https://instaface.alecmarc.us\" target=\"blank_\">Instaface</a> is a hypothetical application. It was conceived as a response to the musing: what would a social platform (in this case, Instagram) look and function like, if it put on absolutely no pretense, making each communicative apparent? When stripped down to its most basic functionality, and presented in a non-persuasive manner, what sort of relationship is formed between the user and the application, and the user and her fellow users?",
+    "brief": "<a href=\"https://instaface.alecmarc.us\" target=\"_blank\">Instaface</a> is a hypothetical application. It was conceived as a response to the musing: what would a social platform (in this case, Instagram) look and function like, if it put on absolutely no pretense, making each communicative apparent? When stripped down to its most basic functionality, and presented in a non-persuasive manner, what sort of relationship is formed between the user and the application, and the user and her fellow users?",
     "imgs": [
       {
         "fileName": "instaface-1.jpg",
@@ -455,8 +455,8 @@
     "time": "2017",
     "role": "Art direction, design, development",
     "media": "Digial, web: Node.js + Nuxt.js + Directus",
-    "scope": "Identity, <a href=\"https://squaredlabs.uconn.edu\" target=\"blank_\">website</a>, t-shirts, +++",
-    "brief": "<a href=\"https://squaredlabs.uconn.edu\" target=\"blank_\">[squared labs]</a> provides design services, scientific illustration, and custom web based tools to support research at the University of Connecticut. The mark's design speaks to the kinetic, possibility-rich nature of the space. The &lsquo;⬚&rsquo; provides an area for activation, while the monospaced type of the wordmark harkens to software-based origin of the group.",
+    "scope": "Identity, <a href=\"https://squaredlabs.uconn.edu\" target=\"_blank\">website</a>, t-shirts, +++",
+    "brief": "<a href=\"https://squaredlabs.uconn.edu\" target=\"_blank\">[squared labs]</a> provides design services, scientific illustration, and custom web based tools to support research at the University of Connecticut. The mark's design speaks to the kinetic, possibility-rich nature of the space. The &lsquo;⬚&rsquo; provides an area for activation, while the monospaced type of the wordmark harkens to software-based origin of the group.",
     "imgs": [
       {
         "fileName": "word-blue-bg.svg",
