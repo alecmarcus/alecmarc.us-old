@@ -1,0 +1,50 @@
+@import '../abstracts/variables/animation';
+@import '../abstracts/variables/colors';
+
+html {
+  color: $text-black;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: basis-grotesque-off-white-pro, 'Basis Grotesque Pro', -apple-system, BlinkMacSystemFont, 'Helvetica Neue',
+    'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: inherit;
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $gray;
+  transition: color $transition-default;
+}
+
+a:hover {
+  color: inherit;
+}

@@ -1,0 +1,74 @@
+
+// Not intended for independent use.
+// Just to keep things DRY in the mixins below.
+@mixin grid-flex {
+  display: flex;
+  flex-flow: column;
+
+  @media (min-width: #{$bp-md}) {
+    flex-flow: row wrap;
+  }
+}
+
+// This mixin is intended for containers who should have
+// the same outer gutters as other grids, but
+// won't have children placed on a grid. Allows it to live
+// above/below other grids. Most top-level containers should
+// include this or the grid-parent mixin.
+@mixin no-flex-grid-parent {
+  box-sizing: border-box;
+  margin-left: var(--grid-gutter-outer-adjusted);
+  margin-right: var(--grid-gutter-outer-adjusted);
+  padding-right: var(--grid-gutter-inner-half);
+  padding-left: var(--grid-gutter-inner-half);
+}
+
+@mixin grid-parent {
+  @include no-flex-grid-parent;
+  @include grid-flex;
+}
+
+
+// For when you need a full bleed component.
+@mixin full-width-grid-parent {
+  --outer-gutter: calc(var(--grid-gutter-inner-half) + var(--grid-gutter-outer-adjusted));
+  @include grid-flex;
+  box-sizing: border-box;
+  padding-right: var(--outer-gutter);
+  padding-left: var(--outer-gutter);
+}
+
+@mixin grid-child {
+  padding-right: var(--grid-gutter-inner-half);
+  padding-left: var(--grid-gutter-inner-half);
+  box-sizing: border-box;
+
+  @media (max-width: #{$bp-md}) {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: var(--grid-gutter-inner-half);
+    padding-left: var(--grid-gutter-inner-half);
+    width: 100%;
+  }
+}
+
+// Spans $arg2 above $bp-md, and $arg1 above $bp-avg.
+// If $arg2 is not given, then it will try to use $arg1,
+// as long as it doesn't exceed the max grid cols. If so,
+// the element will be 100% of the parent's width.
+
+// Handily, we can also use this mixin to add empty columns by passing in 'margin' or padding as the $property.
+@mixin span-columns($col-span-avg, $col-span-md:'', $property: width) {
+  @media (min-width: #{$bp-md}) {
+    @if ($col-span-md != '') {
+      #{$property}: calc(#{$col-span-md} * (100% / var(--grid-col-count)));
+    } @else if ($col-span-md == '' and $col-span-avg <= 8) {
+      #{$property}: calc(#{$col-span-avg} * (100% / var(--grid-col-count)));
+    } @else {
+      #{$property}: 100%;
+    }
+  }
+  @media (min-width: #{$bp-avg}) {
+    #{$property}: calc(#{$col-span-avg} * (100% / var(--grid-col-count)));
+  }
+}

@@ -32,12 +32,18 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: ['~/assets/css/main.css'],
+  styleResources: {
+    scss: [
+      '~/assets/styles/abstracts/functions/*.scss',
+      '~/assets/styles/abstracts/mixins/*.scss',
+      '~/assets/styles/abstracts/variables/*.scss'
+    ]
+  },
+  css: [{ src: '~/assets/styles/index.scss', lang: 'scss' }],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [],
-
   /*
   ** Nuxt.js modules
   */
