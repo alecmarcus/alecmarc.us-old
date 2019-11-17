@@ -94,9 +94,9 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .description {
-  font-size: calc(var(--font-size) / 1.25 / 1.25 / 1.25 / 1.25);
+  font-size: ms(1);
   margin: 1.25rem;
   display: flex;
   justify-content: space-between;
@@ -127,7 +127,7 @@ h3 {
 video {
   display: block;
   max-width: 100vw;
-  margin: calc(119rem / 16) auto;
+  margin: ms(9) auto;
 }
 
 section {

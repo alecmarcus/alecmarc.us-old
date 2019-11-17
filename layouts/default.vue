@@ -15,30 +15,31 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 main {
-  --font-size: calc(49rem / 16);
-  --leading: 1.25;
+  --font-size: #{ms(5)};
+  --leading: #{ms($steps: 1, $base: 1)};
   --nav-height: calc((var(--font-size) * var(--leading)) + (2 * 1.25rem) + 4px);
+
   line-height: var(--leading);
   font-size: var(--font-size);
 }
 
 @media (max-width: 900px) {
   main {
-    --font-size: calc(39rem / 16);
+    --font-size: #{ms(4)};
   }
 }
 
 @media (max-width: 700px) {
   main {
-    --font-size: calc(31rem / 16);
+    --font-size: #{ms(3)};
   }
 }
 
 @media (max-width: 450px) {
   main {
-    --font-size: calc(25rem / 16);
+    --font-size: #{ms(2)};
   }
 }
 
