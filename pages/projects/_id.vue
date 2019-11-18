@@ -49,6 +49,20 @@ import { mapState, mapActions } from 'vuex'
 import projects from '~/assets/projects.json'
 
 export default {
+  transition(to, from) {
+    if (!from) {
+      // Prevent the page from hanging if user navigates directly to a project page (no 'from').
+      return false
+    } else if (to.path === '/projects' || !from.params.id) {
+      // Don't no-mode transition between project pages, as it causes undefined state errors.
+      return {
+        name: 'slide',
+        mode: ''
+      }
+    } else {
+      return 'fade'
+    }
+  },
   components: {
     VProjectNav,
     VProjectImage,

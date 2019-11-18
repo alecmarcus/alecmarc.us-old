@@ -1,30 +1,43 @@
 <template>
   <nav id="primaryNav">
-    <div v-if="activeProject && this.$route.params.id">
-      <h1 v-html="activeProject.name" />
-      <nuxt-link
-        to="/projects"
-        class="going-up">Index</nuxt-link>
-    </div>
-    <div v-if="this.$route.path === '/projects'">
-      <h1>Index of Projects</h1>
-      <nuxt-link
-        to="/"
-        class="going-down">Home</nuxt-link>
-    </div>
-    <div v-if="this.$route.path === '/'">
-      <h1>
-        <nuxt-link
-          to="/projects"
-          class="going-up">Index of Projects</nuxt-link>
-      </h1>
+    <div class="conditional-wrapper">
+      <transition
+        :enter-class="this.$route.path === '/projects' ? 'push-up-enter' : 'push-down-enter'"
+        :leave-to-class="this.$route.path === '/projects' ? 'push-up-leave-to' : 'push-down-leave-to'"
+        name="push"
+      >
+        <div
+          v-if="activeProject && this.$route.params.id"
+          key="active-proj"
+          class="content-wrapper">
+          <h1 v-html="activeProject.name" />
+          <nuxt-link
+            to="/projects"
+            class="going-up">Index</nuxt-link>
+        </div>
+        <div
+          v-else
+          key="no-active-proj"
+          class="content-wrapper">
+          <h1 v-if="this.$route.path === '/'">
+            <nuxt-link
+              to="/projects"
+              class="going-up">Index of Projects</nuxt-link>
+          </h1>
+          <template v-else>
+            <h1>Index of Projects</h1>
+            <nuxt-link
+              to="/"
+              class="going-down">Home</nuxt-link>
+          </template>
+        </div>
+      </transition>
     </div>
   </nav>
 </template>
 
 <script>
 import { mapState, mapActions } from 'vuex'
-import projects from '~/assets/projects.json'
 
 export default {
   computed: mapState({
@@ -33,32 +46,32 @@ export default {
 }
 </script>
 
-<style scoped>
-nav {
-  transition: min-height 0.5s ease;
-}
-
-div {
-  transition: border-color 0.3s ease 0.5s;
-}
-
-nav div {
-  border-top: 2px solid;
+<style lang="scss" scoped>
+.conditional-wrapper {
+  background: #ffffff;
   border-bottom: 2px solid;
   border-color: #8e8e8e;
-  background: #ffffff;
+  border-top: 2px solid;
+  height: var(--nav-height);
+  overflow: hidden;
+  position: relative;
+  transition: border-color 0.3s $ease-in-out-circ 0.5s;
+  width: 100%;
 }
 
-nav.projects div {
-  border-color: #2e2e2e;
-}
-
-nav div {
+.content-wrapper {
+  align-items: flex-end;
+  box-sizing: border-box;
   display: flex;
   flex-flow: row nowrap;
+  height: 100%;
   justify-content: space-between;
-  align-items: flex-end;
   padding: 1.25rem;
+  width: 100%;
+}
+
+.projects .conditional-wrapper {
+  border-color: #2e2e2e;
 }
 
 h1 {
@@ -82,12 +95,38 @@ h1 {
   display: inline-block;
   color: #2e2e2e;
   opacity: 0;
-  transition: all 0.15s ease;
+  transition: all 0.15s $ease-in-out-circ;
 }
 
 .going-up:hover:after,
 .going-down:hover:before {
   opacity: 1;
   transform: translateX(0);
+}
+
+.push-enter-active,
+.push-leave-active {
+  transition: all 0.8s $ease-in-out-circ;
+  position: absolute;
+}
+
+.push-down-enter,
+.push-up-leave-to {
+  transform: translateY(calc(-1 * var(--nav-height)));
+}
+
+.push-down-leave-to,
+.push-up-enter {
+  transform: translateY(var(--nav-height));
+}
+
+.hide-leave-to {
+  transition: none;
+  opacity: 0;
+}
+
+.push-leave,
+.push-enter-to {
+  transform: translate(0);
 }
 </style>

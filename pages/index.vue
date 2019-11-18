@@ -10,6 +10,10 @@ import { mapState, mapActions } from 'vuex'
 import projects from '~/assets/projects.json'
 
 export default {
+  transition: {
+    name: 'slide',
+    mode: ''
+  },
   components: {
     VAboutSection
   },
