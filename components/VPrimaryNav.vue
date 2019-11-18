@@ -60,13 +60,13 @@ export default {
 }
 
 .content-wrapper {
-  align-items: flex-end;
+  align-items: center;
   box-sizing: border-box;
   display: flex;
   flex-flow: row nowrap;
   height: 100%;
   justify-content: space-between;
-  padding: 1.25rem;
+  padding: 0 1.25rem;
   width: 100%;
 }
 
@@ -76,6 +76,7 @@ export default {
 
 h1 {
   margin: 0;
+  margin-right: ms(-1);
 }
 
 .going-up:after {

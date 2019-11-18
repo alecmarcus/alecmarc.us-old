@@ -1,7 +1,6 @@
 <template>
   <li class="project-link">
     <nuxt-link :to="'/projects/' + projectId">
-      <span v-html="projectYear" /> &mdash;
       <span v-html="projectName" />
     </nuxt-link>
   </li>
@@ -18,17 +17,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-a:after {
-  content: '→';
-  padding-left: 0.3em;
-  transform: translateX(0.3em);
-}
-
-a:after {
-  display: inline-block;
-  color: #2e2e2e;
-  opacity: 0;
-  transition: all 0.15s $ease-in-out-circ;
+a {
+  @media (min-width: #{$bp-md-sm}) {
+    &:after {
+      content: '→';
+      padding-left: 0.3em;
+      transform: translateX(0.3em);
+      color: #2e2e2e;
+      display: inline-block;
+      opacity: 0;
+      transition: all 0.15s $ease-in-out-circ;
+    }
+  }
 }
 
 a:hover:after {

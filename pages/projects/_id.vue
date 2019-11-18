@@ -126,9 +126,17 @@ export default {
 }
 
 h1 {
-  font-size: ms(7);
+  font-size: ms(5);
   margin-bottom: ms(-2);
   line-height: 1;
+
+  @media (min-width: #{$bp-sm}) {
+    font-size: ms(6);
+  }
+
+  @media (min-width: #{$bp-md-sm}) {
+    font-size: ms(7);
+  }
 }
 
 .subhead {
