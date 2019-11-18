@@ -106,9 +106,6 @@ export default {
   created() {
     this.setActiveProject(this.$route.params.id)
   },
-  destroyed() {
-    this.setActiveProject(null)
-  },
   methods: {
     ...mapActions({ setActiveProject: 'projectView/setActiveProject' })
   }

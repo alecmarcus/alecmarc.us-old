@@ -13,7 +13,7 @@
 
 <script>
 import VPrimaryNav from '~/components/VPrimaryNav.vue'
-import { mapState } from 'vuex'
+import { mapActions, mapState } from 'vuex'
 
 export default {
   components: {
@@ -25,6 +25,9 @@ export default {
     })
   },
   watch: {
+    $route(to, from) {
+      this.setActiveProject(to.params.id)
+    },
     activeProject(val, oldVal) {
       if (val && !oldVal) {
         this.handleScroll()
@@ -48,6 +51,7 @@ export default {
     }
   },
   methods: {
+    ...mapActions({ setActiveProject: 'projectView/setActiveProject' }),
     handleScroll() {
       const offset = Math.min(-1 * (150 - window.scrollY), 0)
       if (this.$refs.nav) {
