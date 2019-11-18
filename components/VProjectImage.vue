@@ -52,7 +52,7 @@ p {
 
 div,
 img {
-  transition: all 0.3s ease;
+  transition: all 0.3s $ease-in-out-circ;
   user-select: none;
 }
 

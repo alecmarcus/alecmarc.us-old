@@ -1,21 +1,24 @@
 <template>
-  <section>
+  <section id="activeProject">
     <article class="description">
-      <p v-html="activeProject.brief" />
-      <div>
-        <div>
-          <h1>Role:</h1>
-          <p>{{ activeProject.role }}</p>
-        </div>
-        <div>
-          <h2>Media:</h2>
-          <p>{{ activeProject.media }}</p>
-        </div>
-        <div>
-          <h3>Scope:</h3>
-          <p v-html="activeProject.scope" />
-        </div>
+      <div class="header-wrapper">
+        <h1 v-html="activeProject.name" />
+        <p class="subhead">
+          <span>
+            <span>{{ projectArray.indexOf(activeProjectId) + 1 }} of {{ projectArray.length }}</span> &mdash;
+            <nuxt-link :to="`/projects/${prevProjectId}`">Previous</nuxt-link>,
+            <nuxt-link :to="`/projects/${nextProjectId}`">Next</nuxt-link>,
+            <nuxt-link to="/projects">Index</nuxt-link>
+          </span>
+          <span>{{ activeProject.time }}</span>
+        </p>
       </div>
+      <div class="details">
+        <p>{{ activeProject.role }} /</p>
+        <p>{{ activeProject.media }} /</p>
+        <p v-html="activeProject.scope" />
+      </div>
+      <p v-html="activeProject.brief" />
     </article>
     <article v-if="activeProject.vids">
       <v-project-video
@@ -45,7 +48,7 @@
 import VProjectNav from '~/components/VProjectNav.vue'
 import VProjectImage from '~/components/VProjectImage.vue'
 import VProjectVideo from '~/components/VProjectVideo.vue'
-import { mapState, mapActions } from 'vuex'
+import { mapState, mapActions, mapGetters } from 'vuex'
 import projects from '~/assets/projects.json'
 
 export default {
@@ -94,6 +97,10 @@ export default {
       activeProject: state => state.projectView.activeProject,
       activeProjectId: state => state.projectView.activeProjectId,
       projectArray: state => state.projectView.projectArray
+    }),
+    ...mapGetters({
+      nextProjectId: 'projectView/nextProjectId',
+      prevProjectId: 'projectView/prevProjectId'
     })
   },
   created() {
@@ -111,31 +118,35 @@ export default {
 <style lang="scss" scoped>
 .description {
   font-size: ms(1);
-  margin: 1.25rem;
+  margin: ms(6) auto ms(3);
+  max-width: ms(17);
+  padding: 0 ms(1);
+}
+
+.header-wrapper,
+.details {
+  margin-bottom: ms(3);
+}
+
+h1 {
+  font-size: ms(7);
+  margin-bottom: ms(-2);
+  line-height: 1;
+}
+
+.subhead {
   display: flex;
   justify-content: space-between;
 }
 
-.description > * {
-  width: calc((100% - 1.25rem) / 2);
-}
-
-.description > div {
-  display: flex;
-  flex-flow: column nowrap;
-}
-
-.description > div > div:not(:last-of-type) {
-  margin-bottom: 1.25em;
+.details {
+  text-align: center;
 }
 
 p,
-h1,
 h2,
 h3 {
-  font-size: inherit;
   margin: 0;
-  display: block;
 }
 
 video {

@@ -17,7 +17,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 a:after {
   content: '→';
   padding-left: 0.3em;
@@ -28,7 +28,7 @@ a:after {
   display: inline-block;
   color: #2e2e2e;
   opacity: 0;
-  transition: all 0.15s ease;
+  transition: all 0.15s $ease-in-out-circ;
 }
 
 a:hover:after {
