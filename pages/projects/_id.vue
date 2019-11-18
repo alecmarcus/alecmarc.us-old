@@ -56,8 +56,7 @@ export default {
     if (!from) {
       // Prevent the page from hanging if user navigates directly to a project page (no 'from').
       return false
-    } else if (to.path === '/projects' || !from.params.id) {
-      // Don't no-mode transition between project pages, as it causes undefined state errors.
+    } else if (to.path === '/projects' || from.path === '/projects') {
       return {
         name: 'slide',
         mode: ''
