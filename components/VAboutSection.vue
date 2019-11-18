@@ -27,11 +27,6 @@ import VAboutSnippet from '~/components/VAboutSnippet.vue'
 export default {
   components: {
     VAboutSnippet
-  },
-  methods: {
-    showOptions: function(project) {
-      console.log(this.$refs)
-    }
   }
 }
 </script>
