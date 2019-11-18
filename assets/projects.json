@@ -7,7 +7,7 @@
     "role": "Art direction, design",
     "media": "Print, digital animation",
     "scope": "Identity, large format posters, postcards, animated invitations",
-    "brief": "The Center for Open Research Resources and Equipment at UConn held its first Symposium in November 2018. COR&sup2;E is composed of 9 applied science reserach facilities. At the symposium, directors and users gathered to discuss the services and equipment at each facility. Using COR&sup2;E's identity, the event's design and typography travel, converge, and undulate, as crowds do.",
+    "brief": "The Center for Open Research Resources and Equipment at UConn held its first Symposium in November 2018. COR&sup2;E is composed of 9 applied science research facilities. At the symposium, directors and users gathered to discuss the services and equipment at each facility. Using COR&sup2;E's identity, the event's design and typography travel, converge, and undulate, as crowds do.",
     "imgs": [
       {
         "fileName": "cor2e-symposium-1.png",
@@ -35,8 +35,8 @@
     "time": "Ongoing",
     "role": "Art direction, design, development",
     "media": "Web: Node.js + Nuxt.js",
-    "scope": "Identity, <a href=\"https://linc.us\" target=\"_blank\">wesbite, web application</a>",
-    "brief": "A startup whose flasgship product is a search engine for scientific research expertise. The identity was designed to reflect the idea of interconnection, while invoking a sense of community and intellectualism.",
+    "scope": "Identity, <a href=\"https://linc.us\" target=\"_blank\">web application</a>",
+    "brief": "A startup whose flagship product is a search engine for scientific research expertise. The identity was designed to reflect the idea of interconnection, while invoking a sense of community and intellectualism.",
     "imgs": [
       {
         "fileName": "landing.png",
@@ -189,7 +189,7 @@
       {
         "fileName": "hr-9.jpg",
         "width": "half",
-        "caption": "'whoami' is an imagined dialogue between a human having an existential crisis, and a machine with internet access."
+        "caption": "\"whoami\" is an imagined dialogue between a human having an existential crisis, and a machine with internet access."
       },
       {
         "fileName": "hr-10.jpg",
@@ -198,7 +198,7 @@
       {
         "fileName": "hr-11.jpg",
         "width": "full",
-        "caption": "whoami questions the way we portray ourselves online, asking 'What is sacrificed during the digital conversion of oneself?'"
+        "caption": "\"whoami\" questions the way we portray ourselves online, asking 'What is sacrificed during the digital conversion of oneself?'"
       },
       {
         "fileName": "hr-12.jpg",
@@ -442,7 +442,7 @@
     "client": "[squared labs]/University of Connecticut",
     "time": "2017",
     "role": "Art direction, design, development",
-    "media": "Digial, web: Node.js + Nuxt.js + Directus",
+    "media": "Digital, web: Node.js + Nuxt.js + Directus",
     "scope": "Identity, <a href=\"https://squaredlabs.uconn.edu\" target=\"_blank\">website</a>, t-shirts, +++",
     "brief": "<a href=\"https://squaredlabs.uconn.edu\" target=\"_blank\">[squared labs]</a> provides design services, scientific illustration, and custom web based tools to support research at the University of Connecticut. The mark's design speaks to the kinetic, possibility-rich nature of the space. The &lsquo;⬚&rsquo; provides an area for activation, while the monospaced type of the wordmark harkens to software-based origin of the group.",
     "imgs": [
@@ -556,7 +556,7 @@
     "role": "Design",
     "media": "Screen printing, painting, balloons",
     "scope": "Book",
-    "brief": "An exercise in manipulating physical media to create unique graphic styles and reveal natural systems. How do drastic scale changes affect media that are designed to be static? Balloons were decorated with numerous substances: acrylic paint, spray paint, screen printed plastisol ink, markers, and more, then inflated and deflated. Each application was thoroughly documented with an alpha-numeric ID system. The resulting set of complex textures and otherwordly landscapes were extracted into a graphic language.",
+    "brief": "An exercise in manipulating physical media to create unique graphic styles and reveal natural systems. How do drastic scale changes affect media that are designed to be static? Balloons were decorated with numerous substances: acrylic paint, spray paint, screen printed plastisol ink, markers, and more, then inflated and deflated. Each application was thoroughly documented with an alpha-numeric ID system. The resulting set of complex textures and otherworldly landscapes were extracted into a graphic language.",
     "imgs": [
       {
         "fileName": "abuse-3.jpg",
