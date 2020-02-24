@@ -27,13 +27,13 @@ export default {
           {
             buildHookId: '',
             title: 'Sanity Studio',
-            name: 'sanity-nuxt-events-studio-yi4o35dz',
+            name: 'alecmarcus-admin',
             apiId: '13e9cd89-5340-4f80-b9dc-20989c24ff9b'
           },
           {
             buildHookId: '5e534fc78bfad7d7b96095fc',
             title: 'alecmarc.us',
-            name: 'sanity-nuxt-events-web-xtb5z6b8',
+            name: 'alecmarcus-sanity',
             apiId: '1ae11082-9534-4f59-bdd5-a7f2a716f69f'
           }
         ]
