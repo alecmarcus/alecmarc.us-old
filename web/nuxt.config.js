@@ -3,8 +3,7 @@ import sanityClient from './sanityClient'
 
 const routesQuery = `
   {
-    "sessions": *[_type == "session"],
-    "speakers": *[_type == "person" && defined(slug.current)]
+    "projects": *[_type == "project"],
   }
 `
 
@@ -36,7 +35,7 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#fff' },
+  loading: { color: '#000' },
 
   /*
    ** Global CSS
@@ -53,7 +52,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  // plugins: ['~/plugins/eventInformation'],
+  // plugins: [],
 
   /*
    ** Nuxt.js modules
@@ -64,13 +63,6 @@ export default {
     '@nuxtjs/style-resources',
     '@nuxtjs/pwa'
   ],
-
-  /*
-   ** Set global info from sanity document
-   */
-  eventInformation: () => {
-    return sanityClient.fetch('*[_id == "eventInformation"]').then(res => res)
-  },
 
   /*
    ** Axios module configuration
@@ -86,10 +78,7 @@ export default {
   generate: {
     routes: () => {
       return sanityClient.fetch(routesQuery).then(res => {
-        return [
-          ...res.sessions.map(item => `/sessions/${item._id}`),
-          ...res.speakers.map(item => `/speakers/${item.slug.current}`)
-        ]
+        return [...res.projects.map(item => `/project/${item.slug}`)]
       })
     }
   },
