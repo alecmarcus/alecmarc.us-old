@@ -2,7 +2,8 @@ export default {
   name: 'mainImage',
   title: 'Image',
   type: 'image',
-  description: 'Used for social media previews etc. Upload the highest possible resolution.',
+  description:
+    'Main image on project case study. Also used for social media previews etc. Upload the highest possible resolution.',
   options: {
     hotspot: true
   },
