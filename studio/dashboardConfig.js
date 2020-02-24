@@ -7,12 +7,12 @@ export default {
         data: [
           {
             title: 'GitHub repo',
-            value: 'https://github.com/alecmarcus/sanity-nuxt-events',
+            value: 'https://github.com/alecmarcus/alecmarc.us',
             category: 'Code'
           },
           {
             title: 'Frontend',
-            value: 'https://sanity-nuxt-events-web-xtb5z6b8.netlify.com',
+            value: 'https://alecmarcus-admin.netlify.com',
             category: 'apps'
           }
         ]
@@ -31,8 +31,8 @@ export default {
             apiId: '13e9cd89-5340-4f80-b9dc-20989c24ff9b'
           },
           {
-            buildHookId: '5e4f4eff1a7711b855b494a2',
-            title: 'Events Website',
+            buildHookId: '5e534fc78bfad7d7b96095fc',
+            title: 'alecmarc.us',
             name: 'sanity-nuxt-events-web-xtb5z6b8',
             apiId: '1ae11082-9534-4f59-bdd5-a7f2a716f69f'
           }
