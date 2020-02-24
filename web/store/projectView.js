@@ -22,14 +22,14 @@ export const mutations = {
 }
 
 export const getters = {
-  nextProjectId: state => {
+  nextProjectId(state) {
     const index =
       state.activeProjectIndex + 1 < state.projectArray.length
         ? state.activeProjectIndex + 1
         : 0
     return state.projectArray[index]
   },
-  prevProjectId: state => {
+  prevProjectId(state) {
     const index =
       state.activeProjectIndex - 1 >= 0
         ? state.activeProjectIndex - 1
@@ -38,10 +38,8 @@ export const getters = {
   }
 }
 
-function setActiveProject(store, projectId) {
-  store.commit('setActiveProject', projectId)
-}
-
 export const actions = {
-  setActiveProject
+  setActiveProject(store, projectId) {
+    store.commit('setActiveProject', projectId)
+  }
 }
