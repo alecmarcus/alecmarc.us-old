@@ -2,30 +2,24 @@
   <div>
     <p>
       Alec Marcus is a
-      <VAboutSnippet project="groove"> communication designer </VAboutSnippet>,
-      <VAboutSnippet project="cor2e-symposium"> graphic designer </VAboutSnippet
-      >, <VAboutSnippet project="lincus"> web designer </VAboutSnippet>,
-      <VAboutSnippet project="slabs"> web developer </VAboutSnippet>, and
-      <VAboutSnippet project="mod-table">
-        maker
-      </VAboutSnippet>
-      interested in
-      <VAboutSnippet project="hyperreal"> media studies </VAboutSnippet>,
-      <VAboutSnippet project="instaface">
-        ethical [digital] product design </VAboutSnippet
+      <VAboutSnippet project="groove">communication designer</VAboutSnippet>,
+      <VAboutSnippet project="cor2e-symposium">graphic designer</VAboutSnippet>,
+      <VAboutSnippet project="lincus">web designer</VAboutSnippet>,
+      <VAboutSnippet project="slabs">web developer</VAboutSnippet>, and
+      <VAboutSnippet project="mod-table">maker</VAboutSnippet> interested in
+      <VAboutSnippet project="hyperreal">media studies</VAboutSnippet>,
+      <VAboutSnippet project="instaface"
+        >ethical [digital] product design</VAboutSnippet
       >, new &amp; experimental technologies, and
-      <VAboutSnippet project="ose">
-        an open source future
-      </VAboutSnippet>
+      <VAboutSnippet project="ose">an open source future</VAboutSnippet>
       trying to always be learning,
       <VAboutSnippet project="instaface">
-        subvert questionable relationships with technology </VAboutSnippet
+        subvert questionable relationships with technology</VAboutSnippet
       >, collaborate,
-      <VAboutSnippet project="lincus">
-        promote intellectual pursuit </VAboutSnippet
+      <VAboutSnippet project="lincus"
+        >promote intellectual pursuit</VAboutSnippet
       >, and
-      <VAboutSnippet project="mod-table"> modularize everything </VAboutSnippet
-      >.
+      <VAboutSnippet project="mod-table">modularize everything</VAboutSnippet>.
     </p>
     <p>
       He can be reached by <a href="tel:+18603083030">phone</a> or
@@ -67,9 +61,5 @@ export default {
 div {
   margin: 1.25rem;
   padding-bottom: calc(63rem / 16);
-}
-
-.focus {
-  color: inherit;
 }
 </style>

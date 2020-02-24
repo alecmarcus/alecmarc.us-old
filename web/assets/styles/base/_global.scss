@@ -5,15 +5,9 @@ html {
   color: $text-black;
 }
 
-body,
-p,
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: basis-grotesque-off-white-pro, 'Basis Grotesque Pro', -apple-system, BlinkMacSystemFont, 'Helvetica Neue',
-    'Open Sans', sans-serif;
+body {
+  font-family: basis-grotesque-off-white-pro, 'Basis Grotesque Pro',
+    -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Open Sans', sans-serif;
   font-weight: 400;
 }
 
@@ -31,6 +25,7 @@ h4,
 h5 {
   font-size: inherit;
   margin-top: 0;
+  font-weight: 400;
 }
 
 ul {
@@ -45,6 +40,14 @@ a {
   transition: color $transition-default;
 }
 
-a:hover {
+a:hover,
+a:focus,
+a:target,
+a:active {
   color: inherit;
+}
+
+a:focus {
+  outline: none;
+  text-decoration: underline;
 }
