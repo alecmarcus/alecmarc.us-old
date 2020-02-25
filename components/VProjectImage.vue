@@ -77,6 +77,14 @@ img {
   object-fit: contain;
 }
 
+.align-right img {
+  object-position: right;
+}
+
+.align-left img {
+  object-position: left;
+}
+
 .third {
   width: 33.33%;
 
