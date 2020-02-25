@@ -61,7 +61,9 @@ nav {
 }
 
 .next:hover:after,
-.previous:hover:before {
+.previous:hover:before,
+.next:focus:after,
+.previous:focus:before {
   opacity: 1;
   transform: translateX(0);
 }

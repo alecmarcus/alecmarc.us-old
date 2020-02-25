@@ -104,7 +104,9 @@ h1 {
 }
 
 .going-up:hover:after,
-.going-down:hover:before {
+.going-down:hover:before,
+.going-up:focus:after,
+.going-down:focus:before {
   opacity: 1;
   transform: translateX(0);
 }

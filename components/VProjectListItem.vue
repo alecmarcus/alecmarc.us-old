@@ -31,7 +31,8 @@ a {
   }
 }
 
-a:hover:after {
+a:hover:after,
+a:focus:after {
   opacity: 1;
   transform: translateX(0);
 }
