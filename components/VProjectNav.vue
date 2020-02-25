@@ -36,6 +36,8 @@ nav {
   flex-flow: row nowrap;
   justify-content: space-between;
   padding: 0 1.25rem;
+  user-select: none;
+  font-size: ms(-1, 1em);
 }
 
 .next:after {

@@ -67,7 +67,7 @@ export default {
 
 <style lang="scss" scoped>
 main {
-  --font-size: #{ms(5)};
+  --font-size: #{ms(1)};
   --leading: #{ms($steps: 1, $base: 1)};
   --nav-height: calc((var(--font-size) * var(--leading)) + (2 * 1.25rem));
   --nav-offset-height: calc(var(--nav-height) + 4px);
@@ -76,21 +76,27 @@ main {
   font-size: var(--font-size);
 }
 
-@media (max-width: 900px) {
+@media (min-width: 450px) {
   main {
-    --font-size: #{ms(4)};
+    --font-size: #{ms(2)};
   }
 }
 
-@media (max-width: 700px) {
+@media (min-width: 700px) {
   main {
     --font-size: #{ms(3)};
   }
 }
 
-@media (max-width: 450px) {
+@media (min-width: 900px) {
   main {
-    --font-size: #{ms(2)};
+    --font-size: #{ms(4)};
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    --font-size: #{ms(5)};
   }
 }
 
@@ -105,6 +111,7 @@ main {
   transition-property: min-height, bottom;
   transition-duration: 0.5s;
   transition-timing-function: $ease-in-out-circ;
+  font-size: calc(var(--font-size) / 1.25);
 
   &.projects {
     min-height: 100vh;

@@ -2,7 +2,7 @@
   <section id="activeProject">
     <article class="description">
       <div class="header-wrapper">
-        <h1 v-html="activeProject.name" />
+        <h1>{{ activeProject.name }}</h1>
         <p class="subhead">
           <span>
             <span>{{ projectArray.indexOf(activeProjectId) + 1 }} of {{ projectArray.length }}</span> &mdash;
@@ -14,11 +14,11 @@
         </p>
       </div>
       <div class="details">
-        <p>{{ activeProject.role }} /</p>
-        <p>{{ activeProject.media }} /</p>
-        <p v-html="activeProject.scope" />
+        <p><span class="label">Role:</span> {{ activeProject.role }}</p>
+        <p><span class="label">Media:</span> {{ activeProject.media }}</p>
+        <p><span class="label">Scope:</span> {{ activeProject.scope }}</p>
       </div>
-      <p v-html="activeProject.brief" />
+      <p><span class="label">Brief:</span> {{ activeProject.brief }}</p>
     </article>
     <article v-if="activeProject.vids">
       <v-project-video
@@ -114,14 +114,18 @@ export default {
 <style lang="scss" scoped>
 .description {
   font-size: ms(1);
-  margin: ms(6) auto ms(3);
+  margin: ms(6) auto ms(0);
   max-width: ms(17);
   padding: 0 ms(1);
+
+  + article {
+    margin-top: ms(6);
+  }
 }
 
 .header-wrapper,
-.details {
-  margin-bottom: ms(3);
+.details p {
+  margin-bottom: ms(2);
 }
 
 h1 {
@@ -143,8 +147,10 @@ h1 {
   justify-content: space-between;
 }
 
-.details {
-  text-align: center;
+.label {
+  float: left;
+  margin-bottom: 1em;
+  width: ms(8);
 }
 
 p,
@@ -156,7 +162,7 @@ h3 {
 video {
   display: block;
   max-width: 100vw;
-  margin: ms(9) auto;
+  margin: 0 auto ms(8);
 }
 
 section {

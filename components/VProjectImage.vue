@@ -1,8 +1,10 @@
 <template>
-  <div :class="[width, imageCaption && 'has-caption']">
-    <img
-      :src="imagePath"
-      :alt="projectName">
+  <div :class="['outer-wrapper', width, imageCaption && 'has-caption']">
+    <div class="image-fit-wrapper">
+      <img
+        :src="imagePath"
+        :alt="projectName">
+    </div>
     <p v-if="imageCaption">
       {{ imageCaption }}
     </p>
@@ -30,30 +32,33 @@ export default {
 <style lang="scss" scoped>
 div {
   display: inline-block;
-  text-align: center;
   max-width: 100vw;
-  overflow: hidden;
-  margin: 1.25rem auto calc(var(--font-size) * #{ms($steps: 1, $base: 1)});
+  text-align: center;
 
-  &.has-caption,
-  &.has-caption.half + .half,
-  &.has-caption.two-thirds + .third,
-  &.has-caption.third + .two-thirds {
+  &.centered {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &.outer-wrapper {
     margin-bottom: calc(var(--font-size) * #{ms($steps: 3, $base: 1)});
+    vertical-align: top;
   }
 }
 
+div,
+img,
 p {
-  font-size: ms(1);
-  margin: 0 1em;
-  text-align: left;
-  position: absolute;
+  user-select: none;
 }
 
-div,
-img {
-  transition: all 0.3s $ease-in-out-circ;
-  user-select: none;
+p {
+  box-sizing: border-box;
+  font-size: ms(1);
+  margin: 0 auto;
+  max-width: 30em;
+  padding: 0 ms(0) ms(3);
+  width: 100%;
 }
 
 img {
@@ -75,17 +80,29 @@ img {
 
 .third {
   width: 33.33%;
-  height: 75vh;
+
+  .image-fit-wrapper {
+    width: 100%;
+    height: 75vh;
+  }
 }
 
 .two-thirds {
   width: 66.66%;
-  height: 75vh;
+
+  .image-fit-wrapper {
+    width: 100%;
+    height: 75vh;
+  }
 }
 
 .half {
   width: 50%;
-  height: 75vh;
+
+  .image-fit-wrapper {
+    width: 100%;
+    height: 75vh;
+  }
 }
 
 .centered,

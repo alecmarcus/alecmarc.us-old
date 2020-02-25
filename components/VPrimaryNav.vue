@@ -10,7 +10,7 @@
           v-if="activeProject && this.$route.params.id"
           key="active-proj"
           class="content-wrapper">
-          <h1 v-html="activeProject.name" />
+          <h1>{{ activeProject.name }}</h1>
           <nuxt-link
             to="/projects"
             class="going-up">Index</nuxt-link>
@@ -47,11 +47,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+nav {
+  user-select: none;
+}
+
 .conditional-wrapper {
   background: #ffffff;
-  border-bottom: 2px solid;
+  border-bottom: 1px solid;
   border-color: #8e8e8e;
-  border-top: 2px solid;
+  border-top: 1px solid;
   height: var(--nav-height);
   overflow: hidden;
   position: relative;
