@@ -22,10 +22,10 @@
           <h1 v-if="this.$route.path === '/'">
             <nuxt-link
               to="/projects"
-              class="going-up">Index of Projects</nuxt-link>
+              class="going-up">Projects</nuxt-link>
           </h1>
           <template v-else>
-            <h1>Index of Projects</h1>
+            <h1>Projects</h1>
             <nuxt-link
               to="/"
               class="going-down">Home</nuxt-link>
