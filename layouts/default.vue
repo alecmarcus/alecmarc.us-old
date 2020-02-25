@@ -67,25 +67,13 @@ export default {
 
 <style lang="scss" scoped>
 main {
-  --font-size: #{ms(1)};
+  --font-size: #{ms(3)};
   --leading: #{ms($steps: 1, $base: 1)};
   --nav-height: calc((var(--font-size) * var(--leading)) + (2 * 1.25rem));
   --nav-offset-height: calc(var(--nav-height) + 4px);
 
   line-height: var(--leading);
   font-size: var(--font-size);
-}
-
-@media (min-width: 450px) {
-  main {
-    --font-size: #{ms(2)};
-  }
-}
-
-@media (min-width: 700px) {
-  main {
-    --font-size: #{ms(3)};
-  }
 }
 
 @media (min-width: 900px) {

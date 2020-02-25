@@ -32,7 +32,6 @@ export default {
 <style lang="scss" scoped>
 div {
   display: inline-block;
-  max-width: 100vw;
   text-align: center;
 
   &.centered {
@@ -43,6 +42,7 @@ div {
   &.outer-wrapper {
     margin-bottom: calc(var(--font-size) * #{ms($steps: 3, $base: 1)});
     vertical-align: top;
+    max-width: 100%;
   }
 }
 
@@ -61,17 +61,16 @@ p {
   width: 100%;
 }
 
-img {
-  pointer-events: none;
-  max-width: 100vw;
+.image-fit-wrapper {
+  width: 100%;
 }
 
-.third img,
-.half img,
-.two-thirds img {
-  object-fit: cover;
-  width: 100%;
+img {
   height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  width: 100%;
 }
 
 .contain img {
@@ -82,7 +81,6 @@ img {
   width: 33.33%;
 
   .image-fit-wrapper {
-    width: 100%;
     height: 75vh;
   }
 }
@@ -91,7 +89,6 @@ img {
   width: 66.66%;
 
   .image-fit-wrapper {
-    width: 100%;
     height: 75vh;
   }
 }
@@ -100,9 +97,12 @@ img {
   width: 50%;
 
   .image-fit-wrapper {
-    width: 100%;
     height: 75vh;
   }
+}
+
+.full {
+  width: 100%;
 }
 
 .centered,

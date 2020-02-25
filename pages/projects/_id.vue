@@ -113,10 +113,14 @@ export default {
 
 <style lang="scss" scoped>
 .description {
-  font-size: ms(1);
+  font-size: ms(0);
   margin: ms(6) auto ms(0);
   max-width: ms(17);
   padding: 0 ms(1);
+
+  @media (min-width: 900px) {
+    font-size: ms(1);
+  }
 
   + article {
     margin-top: ms(6);
