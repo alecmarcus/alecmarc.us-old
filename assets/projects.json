@@ -10,6 +10,10 @@
     "brief": "A series of posters for the Open Source Everything manifesto, which calls for a society built upon truth, transparency, and trust. Access to information on the posters is actively obstructed through visual complexity and coded language. Each reflects one of the three main paradigms of computing: the mainframe, the cloud, and edge computing. Accompanying is a US English QWERTY keyboard cover screen printed with binary encoded characters. The piece contextualizes thought, input/output, and screens with the actual information stored on hard drives.",
     "imgs": [
       {
+        "fileName": "ose-trio-edge-center-1.png",
+        "width": "full"
+      },
+      {
         "fileName": "ose-1-v2.png",
         "width": "third contain"
       },
@@ -22,16 +26,12 @@
         "width": "third contain"
       },
       {
-        "fileName": "ose-trio-edge-center-1.png",
-        "width": "full"
-      },
-      {
         "fileName": "ose-mainframe.png",
         "width": "full centered"
       },
       {
         "fileName": "ose-4.jpg",
-        "width": "two-thirds contain centered",
+        "width": "full contain centered",
         "caption": "A QWERTY keyboard cover that displays binary encoded values in place of alphabetical characters. Screen print on acrylic."
       },
       {
@@ -52,11 +52,11 @@
     "imgs": [
       {
         "fileName": "c3p-2.jpg",
-        "width": "third"
+        "width": "half"
       },
       {
         "fileName": "c3p-3.jpg",
-        "width": "two-thirds"
+        "width": "half"
       },
       {
         "fileName": "c3p-4.jpg",
@@ -132,11 +132,6 @@
         "width": "half"
       },
       {
-        "fileName": "hr-11.jpg",
-        "width": "full",
-        "caption": "\"whoami\" questions the way we portray ourselves online, asking 'What is sacrificed during the digital conversion of oneself?'"
-      },
-      {
         "fileName": "hr-12.jpg",
         "width": "full",
         "caption": "The book questions what sort of existence is represented when a user is visually reduced to data."
@@ -144,7 +139,7 @@
       {
         "fileName": "hr-17.jpg",
         "width": "full",
-        "caption": "Messages from tech tycoons are printed through out the book, re-contextualizing their meaning and the place of the services being dicussed in our physical lives."
+        "caption": "Messages from tech tycoons are printed through out the book."
       },
       {
         "fileName": "hr-13.jpg",
@@ -164,8 +159,8 @@
       },
       {
         "fileName": "hr-19.gif",
-        "width": "full",
-        "caption": "An exploratory kinetic poster, revealing interstitial moments of typography and meaning."
+        "width": "two-thirds centered contain",
+        "caption": "An series of exploratory kinetic posters, revealing interstitial moments of typography and meaning."
       }
     ]
   },
