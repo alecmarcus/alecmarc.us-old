@@ -1,13 +1,183 @@
 {
+  "ose": {
+    "name": "Open Source Everything",
+    "id": "ose",
+    "client": "Self Initiated",
+    "time": "2016",
+    "role": "Design",
+    "media": "Print, 3D",
+    "scope": "Posters, pamphlet, silkscreened keyboard cover",
+    "brief": "A series of posters for the Open Source Everything manifesto, which calls for a society built upon truth, transparency, and trust. Access to information on the posters is actively obstructed through visual complexity and coded language. Each reflects one of the three main paradigms of computing: the mainframe, the cloud, and edge computing. Accompanying is a US English QWERTY keyboard cover screen printed with binary encoded characters. The piece contextualizes thought, input/output, and screens with the actual information stored on hard drives.",
+    "imgs": [
+      {
+        "fileName": "ose-1-v2.png",
+        "width": "third contain"
+      },
+      {
+        "fileName": "ose-2-v2.png",
+        "width": "third contain"
+      },
+      {
+        "fileName": "ose-3-v2.png",
+        "width": "third contain"
+      },
+      {
+        "fileName": "ose-trio-edge-center-1.png",
+        "width": "full"
+      },
+      {
+        "fileName": "ose-mainframe.png",
+        "width": "full centered"
+      },
+      {
+        "fileName": "ose-4.jpg",
+        "width": "two-thirds contain centered",
+        "caption": "A QWERTY keyboard cover that displays binary encoded values in place of alphabetical characters. Screen print on acrylic."
+      },
+      {
+        "fileName": "ose-keyboard-close-1.jpg",
+        "width": "half contain centered"
+      }
+    ]
+  },
+  "c3p": {
+    "name": "Close Third Person",
+    "id": "c3p",
+    "client": "University of Connecticut 2018 MFA Exhibition",
+    "time": "2018",
+    "role": "Design",
+    "media": "Print, digital animation",
+    "scope": "Identity, large format banner, large format posters, postcards, animated invitations",
+    "brief": "An identity for the UConn 2018 Master of Fine Arts Exhibition. The sliding mark and overlapping graphics speak to shifting perspectives and proximities — a quiet, thoughtful dance that guided each graduate during their time at the University.",
+    "imgs": [
+      {
+        "fileName": "c3p-2.jpg",
+        "width": "third"
+      },
+      {
+        "fileName": "c3p-3.jpg",
+        "width": "two-thirds"
+      },
+      {
+        "fileName": "c3p-4.jpg",
+        "width": "full"
+      }
+    ],
+    "vids": ["c3p-1.webm"]
+  },
+  "hyperreal": {
+    "name": "HYPERREAL",
+    "id": "hyperreal",
+    "client": "Self Initiated",
+    "time": "2018",
+    "role": "Art direction, design",
+    "media": "Print, web: Node.js + Nuxt.js + facial recognition + live streaming, digital animation, digital 3D, physical 3D",
+    "scope": "Silkscreen posters, book, web application, typeface, animated posters, laser-cut acrylic",
+    "brief": "HYPERREAL was an exhibition that addressed the duality of modern existence: physicality (real) and intangibility (hyperreal). Each component was meant to invoke questions as viewers experienced and interacted with them. HYPERREAL's intent was to illuminate aspects of our lives which are new, complex, and only partially understood, yet often overlooked and easily accepted.",
+    "imgs": [
+      {
+        "fileName": "poster_reflection.jpg",
+        "width": "full",
+        "caption": "Posters made to exhibit the partial nature of physical reality and overlay of hyperreality through typography."
+      },
+      {
+        "fileName": "hr-1.svg",
+        "width": "two-thirds centered contain"
+      },
+      {
+        "fileName": "hr-2.png",
+        "width": "half contain"
+      },
+      {
+        "fileName": "hr-3.png",
+        "width": "half contain"
+      },
+      {
+        "fileName": "poster+box.jpg",
+        "width": "half contain"
+      },
+      {
+        "fileName": "poster+book.jpg",
+        "width": "half contain"
+      },
+      {
+        "fileName": "box.jpg",
+        "width": "two-thirds centered",
+        "caption": "A box, whose contents were live-streamed to a display elsewhere in the space."
+      },
+      {
+        "fileName": "hr-5.jpg",
+        "width": "full",
+        "caption": "Posters on display at Central Saint Martins in London."
+      },
+      {
+        "fileName": "hr-6.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "hr-8.jpg",
+        "width": "half"
+      },
+      {
+        "fileName": "hr-7.jpg",
+        "width": "half"
+      },
+      {
+        "fileName": "hr-9.jpg",
+        "width": "half",
+        "caption": "\"whoami\" is an imagined dialogue between a human having an existential crisis, and a machine with internet access."
+      },
+      {
+        "fileName": "hr-10.jpg",
+        "width": "half"
+      },
+      {
+        "fileName": "hr-11.jpg",
+        "width": "full",
+        "caption": "\"whoami\" questions the way we portray ourselves online, asking 'What is sacrificed during the digital conversion of oneself?'"
+      },
+      {
+        "fileName": "hr-12.jpg",
+        "width": "full",
+        "caption": "The book questions what sort of existence is represented when a user is visually reduced to data."
+      },
+      {
+        "fileName": "hr-17.jpg",
+        "width": "full",
+        "caption": "Messages from tech tycoons are printed through out the book, re-contextualizing their meaning and the place of the services being dicussed in our physical lives."
+      },
+      {
+        "fileName": "hr-13.jpg",
+        "width": "third"
+      },
+      {
+        "fileName": "hr-14.jpg",
+        "width": "two-thirds"
+      },
+      {
+        "fileName": "hr-15.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "hr-18.jpg",
+        "width": "full"
+      },
+      {
+        "fileName": "hr-19.gif",
+        "width": "full",
+        "caption": "An exploratory kinetic poster, revealing interstitial moments of typography and meaning."
+      }
+    ]
+  },
   "cor2e-symposium": {
-    "name": "COR&sup2;E Symposium",
+    "name": "COR²E Symposium",
     "id": "cor2e-symposium",
-    "client": "COR&sup2;E",
+    "client": "COR²E",
     "time": "2018",
     "role": "Art direction, design",
     "media": "Print, digital animation",
     "scope": "Identity, large format posters, postcards, animated invitations",
-    "brief": "The Center for Open Research Resources and Equipment at UConn held its first Symposium in November 2018. COR&sup2;E is composed of 9 applied science research facilities. At the symposium, directors and users gathered to discuss the services and equipment at each facility. Using COR&sup2;E's identity, the event's design and typography travel, converge, and undulate, as crowds do.",
+    "brief": "The Center for Open Research Resources and Equipment at UConn held its first Symposium in November 2018. COR²E is composed of 9 applied science research facilities. At the symposium, directors and users gathered to discuss the services and equipment at each facility. Using COR²E's identity, the event's design and typography travel, converge, and undulate, as crowds do.",
     "imgs": [
       {
         "fileName": "cor2e-symposium-1.png",
@@ -34,27 +204,16 @@
     "client": "Chief Design Officer",
     "time": "Ongoing",
     "role": "Art direction, design, development",
-    "media": "Web: Node.js + Nuxt.js",
-    "scope": "Identity, <a href=\"https://linc.us\" target=\"_blank\">web application</a>",
+    "media": "Web application",
+    "scope": "Identity, web application",
     "brief": "A startup whose flagship product is a search engine for scientific research expertise. The identity was designed to reflect the idea of interconnection, while invoking a sense of community and intellectualism.",
     "imgs": [
       {
-        "fileName": "landing.png",
-        "width": "full"
-      },
-      {
-        "fileName": "search.png",
-        "width": "full"
-      },
-      {
-        "fileName": "results.png",
-        "width": "full"
-      },
-      {
-        "fileName": "results-map.png",
+        "fileName": "lincus-comp.png",
         "width": "full"
       }
-    ]
+    ],
+    "vids": ["atom.webm"]
   },
   "groove": {
     "name": "GROOVE Recording",
@@ -63,8 +222,8 @@
     "time": "2018",
     "role": "Art direction, design, development",
     "media": "Web, digital animation, print, clothing",
-    "scope": "Brand identity, <a href=\"https://grooverecording.studio\" target=\"_blank\">website</a>, t-shirts, business cards, letterhead, invoices, animated advertisements",
-    "brief": "GROOVE Recording is the recording practice of a seasoned drummer who brings years of performance into the studio setting. In order to stand out in a saturated, cut-and-dry market, the brand invokes rhythm and movement, composed of a suite of grooves by which to present itself.",
+    "scope": "Brand identity, website, t-shirts, business cards, letterhead, invoices, animated advertisements",
+    "brief": "GROOVE Recording is the recording practice of a seasoned drummer who brings years of performing experience to his studio. In order to stand out in a saturated, cut-and-dry market, the brand invokes rhythm and movement. The identity system is composed of a suite of grooves, inspired by rudiments and dances.",
     "imgs": [
       {
         "fileName": "groove_animation_1.gif",
@@ -101,538 +260,6 @@
       {
         "fileName": "promo-gif-3.gif",
         "width": "third contain"
-      }
-    ]
-  },
-  "c3p": {
-    "name": "Close Third Person",
-    "id": "c3p",
-    "client": "University of Connecticut 2018 MFA Exhibition",
-    "time": "2018",
-    "role": "Design",
-    "media": "Print, digital animation",
-    "scope": "Identity, large format banner, large format posters, postcards, animated invitations",
-    "brief": "An identity for the UConn 2018 Master of Fine Arts Exhibition. The sliding mark and overlapping graphics speak to shifting perspectives and proximities; a quiet, thoughtful dance that guided each graduate during their time at the University.",
-    "imgs": [
-      {
-        "fileName": "c3p-2.jpg",
-        "width": "third"
-      },
-      {
-        "fileName": "c3p-3.jpg",
-        "width": "two-thirds"
-      },
-      {
-        "fileName": "c3p-4.jpg",
-        "width": "full"
-      }
-    ],
-    "vids": ["c3p-1.webm"]
-  },
-  "hyperreal": {
-    "name": "HYPERREAL",
-    "id": "hyperreal",
-    "client": "Self Initiated",
-    "time": "2018",
-    "role": "Art direction, design",
-    "media": "Print, web: Node.js + Nuxt.js + facial recognition + live streaming, digital animation, digital 3D, physical 3D",
-    "scope": "Silkscreen posters, book, <a href=\"https://instaface.alecmarc.us\" target=\"_blank\">web application</a>, typeface, animated posters, laser-cut acrylic",
-    "brief": "HYPERREAL was an exhibition that addressed the duality of modern existence: physicality (real) and intangibility (hyperreal). Each component was meant to invoke questions as viewers experienced and interacted with them. HYPERREAL's intent was to illuminate aspects of our lives which are new, complex, and only partially understood, yet often overlooked and easily accepted.",
-    "imgs": [
-      {
-        "fileName": "hr-1.svg",
-        "width": "two-thirds centered contain"
-      },
-      {
-        "fileName": "hr-2.png",
-        "width": "half contain"
-      },
-      {
-        "fileName": "hr-3.png",
-        "width": "half contain"
-      },
-      {
-        "fileName": "poster_reflection.jpg",
-        "width": "full",
-        "caption": "Posters made to exhibit the partial nature of physical reality and overlay of hyperreality through typography."
-      },
-      {
-        "fileName": "box.jpg",
-        "width": "two-thirds centered",
-        "caption": "A box, whose contents were live-streamed to a display elsewhere in the space."
-      },
-      {
-        "fileName": "poster+box.jpg",
-        "width": "half contain"
-      },
-      {
-        "fileName": "poster+book.jpg",
-        "width": "half contain"
-      },
-      {
-        "fileName": "hr-5.jpg",
-        "width": "full",
-        "caption": "Posters on display at Central Saint Martins in London."
-      },
-      {
-        "fileName": "hr-6.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "hr-8.jpg",
-        "width": "half"
-      },
-      {
-        "fileName": "hr-7.jpg",
-        "width": "half"
-      },
-      {
-        "fileName": "hr-9.jpg",
-        "width": "half",
-        "caption": "\"whoami\" is an imagined dialogue between a human having an existential crisis, and a machine with internet access."
-      },
-      {
-        "fileName": "hr-10.jpg",
-        "width": "half"
-      },
-      {
-        "fileName": "hr-11.jpg",
-        "width": "full",
-        "caption": "\"whoami\" questions the way we portray ourselves online, asking 'What is sacrificed during the digital conversion of oneself?'"
-      },
-      {
-        "fileName": "hr-12.jpg",
-        "width": "full",
-        "caption": "The user's entire relationship with his digital social tools is printed by the console, in an effort to identify him."
-      },
-      {
-        "fileName": "hr-13.jpg",
-        "width": "third"
-      },
-      {
-        "fileName": "hr-14.jpg",
-        "width": "two-thirds"
-      },
-      {
-        "fileName": "hr-15.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "hr-17.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "hr-18.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "hr-19.gif",
-        "width": "full"
-      }
-    ]
-  },
-  "mod-table": {
-    "name": "Mod Table",
-    "id": "mod-table",
-    "client": "Self Initiated",
-    "time": "2018",
-    "role": "Design, fabrication",
-    "media": "Woodworking, CNC milling",
-    "scope": "Handmade maquettes, laser cut scale models, handmade full-scale models, CNC milled final product",
-    "brief": "A furniture platform designed for variety and easy dis/assembly. Three simple, material-agnostic components join using linkages that require no tools or hardware. CNC milling and precise tolerances create a seamless fit that maintains structural integrity in any configuration. Different quantities and leg heights allow the tables to be configured for myriad purposes, from intimate settings such as a bedside table, to larger and more complex applications such exhibition furniture.",
-    "imgs": [
-      {
-        "fileName": "mod-table-1.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "mod-table-2.jpg",
-        "width": "half"
-      },
-      {
-        "fileName": "mod-table-3.jpg",
-        "width": "half"
-      },
-      {
-        "fileName": "mod-table-4.jpg",
-        "width": "half centered"
-      },
-      {
-        "fileName": "mod-table-5.jpg",
-        "width": "third"
-      },
-      {
-        "fileName": "mod-table-6.jpg",
-        "width": "third"
-      },
-      {
-        "fileName": "mod-table-7.jpg",
-        "width": "third"
-      },
-      {
-        "fileName": "mod-table-8.jpg",
-        "width": "half"
-      },
-      {
-        "fileName": "mod-table-9.jpg",
-        "width": "half"
-      },
-      {
-        "fileName": "mod-table-10.jpg",
-        "width": "half"
-      },
-      {
-        "fileName": "mod-table-11.jpg",
-        "width": "half"
-      },
-      {
-        "fileName": "mod-table-12.jpg",
-        "width": "third centered"
-      },
-      {
-        "fileName": "mod-table-13.jpg",
-        "width": "half"
-      },
-      {
-        "fileName": "mod-table-14.jpg",
-        "width": "half"
-      },
-      {
-        "fileName": "mod-table-15.jpg",
-        "width": "half"
-      },
-      {
-        "fileName": "mod-table-16.jpg",
-        "width": "half"
-      },
-      {
-        "fileName": "mod-table-17.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "mod-table-18.jpg",
-        "width": "two-thirds"
-      },
-      {
-        "fileName": "mod-table-19.jpg",
-        "width": "third"
-      }
-    ]
-  },
-  "instaface": {
-    "name": "Instaface",
-    "id": "instaface",
-    "client": "Self Initiated",
-    "time": "2018",
-    "role": "Art direction, design, development",
-    "media": "Web: Node.js + Nuxt.js + facial recognition",
-    "scope": "Web application",
-    "brief": "<a href=\"https://instaface.alecmarc.us\" target=\"_blank\">Instaface</a> is a hypothetical application. It was conceived as a response to the musing: what would a social platform (in this case, Instagram) look and function like, if it put on absolutely no pretense, making each communicative apparent? When stripped down to its most basic functionality, and presented in a non-persuasive manner, what sort of relationship is formed between the user and the application, and the user and her fellow users?",
-    "imgs": [
-      {
-        "fileName": "instaface-1.jpg",
-        "width": "full"
-      }
-    ]
-  },
-  "pgc": {
-    "name": "Plants & Global Change",
-    "id": "pgc",
-    "client": "University of Connecticut, Jeff Seemann",
-    "time": "2018",
-    "role": "Art direction, design",
-    "media": "Digital",
-    "scope": "Identity",
-    "brief": "The Plant & Global Change Research Lab researches plant life in the context of global warming and climate change. The central wave of the mark is representative of the yearly upward trend in atmospheric carbon dioxide concentration, known as the Keeling Curve.",
-    "imgs": [
-      {
-        "fileName": "p&gc-black-whitebg.png",
-        "width": "full"
-      },
-      {
-        "fileName": "p&gc+text-black-whitebg.png",
-        "width": "full"
-      },
-      {
-        "fileName": "black-wave-whitebg.png",
-        "width": "two-thirds centered contain"
-      },
-      {
-        "fileName": "p&gc-green-whitebg.png",
-        "width": "full",
-        "caption": "The acronym emerging from the wave mirrors the intersection of plant biology and global change."
-      },
-      {
-        "fileName": "pgc-colors.png",
-        "width": "two-thirds centered contain"
-      },
-      {
-        "fileName": "white-wavebox-72.png",
-        "width": "full"
-      },
-      {
-        "fileName": "red-blue-wavebox-72.png",
-        "width": "full"
-      },
-      {
-        "fileName": "algae-green-wavebox-72.png",
-        "width": "full"
-      },
-      {
-        "fileName": "black-blue-wavebox-72.png",
-        "width": "full"
-      },
-      {
-        "fileName": "black-green-wavebox-72.png",
-        "width": "full"
-      },
-      {
-        "fileName": "black-white-wavebox-72.png",
-        "width": "full"
-      }
-    ]
-  },
-  "sl": {
-    "name": "Seemann Lab",
-    "id": "sl",
-    "client": "University of Connecticut, Jeff Seemann",
-    "time": "2018",
-    "role": "Design",
-    "media": "Digital",
-    "scope": "Website",
-    "brief": "A website for the laboratory of Jeff Seemann, a distinguished researcher, professor, and administrator at the University of Connecticut.",
-    "imgs": [
-      {
-        "fileName": "sl-mockup-1.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "sl-2.png",
-        "width": "full"
-      },
-      {
-        "fileName": "sl-3.png",
-        "width": "full"
-      },
-      {
-        "fileName": "sl-4.png",
-        "width": "full"
-      },
-      {
-        "fileName": "sl-5.png",
-        "width": "full"
-      },
-      {
-        "fileName": "sl-6.png",
-        "width": "full"
-      },
-      {
-        "fileName": "sl-7.png",
-        "width": "full"
-      },
-      {
-        "fileName": "sl-8.png",
-        "width": "full"
-      }
-    ]
-  },
-  "slabs": {
-    "name": "[squared labs]",
-    "id": "slabs",
-    "client": "[squared labs]/University of Connecticut",
-    "time": "2017",
-    "role": "Art direction, design, development",
-    "media": "Digital, web: Node.js + Nuxt.js + Directus",
-    "scope": "Identity, <a href=\"https://squaredlabs.uconn.edu\" target=\"_blank\">website</a>, t-shirts, +++",
-    "brief": "<a href=\"https://squaredlabs.uconn.edu\" target=\"_blank\">[squared labs]</a> provides design services, scientific illustration, and custom web based tools to support research at the University of Connecticut. The mark's design speaks to the kinetic, possibility-rich nature of the space. The &lsquo;⬚&rsquo; provides an area for activation, while the monospaced type of the wordmark harkens to software-based origin of the group.",
-    "imgs": [
-      {
-        "fileName": "word-blue-bg.svg",
-        "width": "full"
-      },
-      {
-        "fileName": "word-nobg.svg",
-        "width": "full"
-      },
-      {
-        "fileName": "square-black.svg",
-        "width": "third centered contain"
-      },
-      {
-        "fileName": "stack-nobg.svg",
-        "width": "full"
-      },
-      {
-        "fileName": "site-1.png",
-        "width": "full"
-      },
-      {
-        "fileName": "site-2.png",
-        "width": "full"
-      },
-      {
-        "fileName": "site-3.png",
-        "width": "full"
-      },
-      {
-        "fileName": "site-4.png",
-        "width": "full"
-      },
-      {
-        "fileName": "stamp.svg",
-        "width": "full"
-      }
-    ]
-  },
-  "fdfo": {
-    "name": "Further Down & Farther Out",
-    "id": "fdfo",
-    "client": "Self Initiated",
-    "time": "2017",
-    "role": "Design",
-    "media": "Print",
-    "scope": "Book, audio recordings",
-    "brief": "Perturbed by the homelessness epidemic that I witnessed for the first time while living in London, I made a &lsquo;walking tour&rsquo; that forces participants to recognize the homeless as they travel the city. My intent was to humanize the displaced; to bring their personalities, histories, and lives to the forefront of people's minds. The tour is designed to be taken while audio recordings of conversations between myself and displaced individuals are listened to through headphones. The accompanying book is a retrospective on one such conversation.",
-    "imgs": [
-      {
-        "fileName": "fdfo-1.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "fdfo-2.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "fdfo-3.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "fdfo-4.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "fdfo-5.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "fdfo-6.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "fdfo-7.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "fdfo-8.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "fdfo-9.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "fdfo-10.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "fdfo-11.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "fdfo-12.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "fdfo-13.jpg",
-        "width": "full"
-      }
-    ]
-  },
-  "abusability": {
-    "name": "Abusability",
-    "id": "abusability",
-    "client": "Self Initiated",
-    "time": "2017",
-    "role": "Design",
-    "media": "Screen printing, painting, balloons",
-    "scope": "Book",
-    "brief": "An exercise in manipulating physical media to create unique graphic styles and reveal natural systems. How do drastic scale changes affect media that are designed to be static? Balloons were decorated with numerous substances: acrylic paint, spray paint, screen printed plastisol ink, markers, and more, then inflated and deflated. Each application was thoroughly documented with an alpha-numeric ID system. The resulting set of complex textures and otherworldly landscapes were extracted into a graphic language.",
-    "imgs": [
-      {
-        "fileName": "abuse-3.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "abuse-4.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "abuse-5.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "abuse-6.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "abuse-7.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "abuse-8.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "abuse-9.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "abuse-10.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "abuse-11.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "abuse-12.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "abuse-13.jpg",
-        "width": "full"
-      },
-      {
-        "fileName": "abuse-14.jpg",
-        "width": "full"
-      }
-    ]
-  },
-  "ose": {
-    "name": "Open Source Everything",
-    "id": "ose",
-    "client": "Self Initiated",
-    "time": "2016",
-    "role": "Design",
-    "media": "Print, 3D",
-    "scope": "Posters, pamphlet, silkscreened keyboard cover",
-    "brief": "A series of posters for the Open Source Everything manifesto, which calls for a society built upon truth, transparency, and trust. Access to information on the posters is actively obstructed through visual complexity and coded language. Each reflects one of the three main paradigms of computing: the mainframe, the cloud, and edge computing. Accompanying is a US English QWERTY keyboard cover screen printed with binary encoded characters. The piece contextualizes thought, input/output, and screens with the actual information stored on hard drives.",
-    "imgs": [
-      {
-        "fileName": "ose-poster-1.jpg",
-        "width": "third contain"
-      },
-      {
-        "fileName": "ose-poster-2.jpg",
-        "width": "third contain"
-      },
-      {
-        "fileName": "ose-poster-3.jpg",
-        "width": "third contain"
-      },
-      {
-        "fileName": "ose-4.jpg",
-        "width": "full"
       }
     ]
   }
