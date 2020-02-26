@@ -2,11 +2,9 @@
   "ose": {
     "name": "Open Source Everything",
     "id": "ose",
-    "client": "Self Initiated",
-    "time": "2016",
+    "time": "2016, revisited 2019",
     "role": "Design",
-    "media": "Print, 3D",
-    "scope": "Posters, pamphlet, silkscreened keyboard cover",
+    "media": "Print, silkscreen on acrylic",
     "brief": "A series of posters for the Open Source Everything manifesto, which calls for a society built upon truth, transparency, and trust. Access to information on the posters is actively obstructed through visual complexity and coded language. Each reflects one of the three main paradigms of computing: the mainframe, the cloud, and edge computing. Accompanying is a US English QWERTY keyboard cover screen printed with binary encoded characters. The piece contextualizes thought, input/output, and screens with the actual information stored on hard drives.",
     "imgs": [
       {
@@ -35,11 +33,11 @@
   "c3p": {
     "name": "Close Third Person",
     "id": "c3p",
-    "client": "University of Connecticut 2018 MFA Exhibition",
+    "client": "University of Connecticut School of Fine Arts",
     "time": "2018",
     "role": "Design",
     "media": "Print, digital animation",
-    "scope": "Identity, large format banner, large format posters, postcards, animated invitations",
+    "scope": "Identity, print advertising campaign, exhibition collateral",
     "brief": "An identity for the UConn 2018 Master of Fine Arts Exhibition. The sliding mark and overlapping graphics speak to shifting perspectives and proximities — a quiet, thoughtful dance that guided each graduate during their time at the University.",
     "imgs": [
       {
@@ -60,11 +58,11 @@
   "hyperreal": {
     "name": "HYPERREAL",
     "id": "hyperreal",
-    "client": "Self Initiated",
     "time": "2018",
-    "role": "Art direction, design",
-    "media": "Print, web: Node.js + Nuxt.js + facial recognition + live streaming, digital animation, digital 3D, physical 3D",
-    "scope": "Silkscreen posters, book, web application, typeface, animated posters, laser-cut acrylic",
+    "role": "Design",
+    "media": "Silkscreen on paper, web, digital animation, acrylic, plywood",
+    "technologies": "Node.js, Nuxt.js, facial recognition, live streaming",
+    "scope": "Posters, book, web application, typeface, exhibition furniture",
     "brief": "HYPERREAL was an exhibition that addressed the duality of modern existence: physicality (real) and intangibility (hyperreal). Each component was meant to invoke questions as viewers experienced and interacted with them. HYPERREAL's intent was to illuminate aspects of our lives which are new, complex, and only partially understood, yet often overlooked and easily accepted.",
     "imgs": [
       {
@@ -156,10 +154,52 @@
       }
     ]
   },
+  "lincus": {
+    "name": "Lincus",
+    "id": "lincus",
+    "client": "o-o-o-o, Inc.",
+    "time": "Ongoing",
+    "role": "Chief Design Officer, art direction, design, development",
+    "media": "Web application",
+    "scope": "Identity, product design and development, strategy",
+    "brief": "A startup whose flagship product is a search engine for scientific research expertise. The identity was designed to reflect the idea of interconnection, while invoking a sense of community and intellectualism.",
+    "imgs": [
+      {
+        "fileName": "lincus-comp.png",
+        "width": "full"
+      }
+    ],
+    "vids": ["atom.webm"]
+  },
+  "spect": {
+    "name": "spect",
+    "id": "spect",
+    "client": "UConn Office of the Vice President for Research",
+    "time": "2019",
+    "role": "Art direction, design, development",
+    "media": "Web application",
+    "technologies": "React with custom state managment, JS animation on HTML canvas",
+    "scope": "Naming, identity, strategy",
+    "brief": "Spect is a podcast about research, technology, and innovation across the state of Connecticut. The mark system was designed to reflect and befit the breadth of topics covered by the podcast, and is powered by a custom built, web-based generative design tool.",
+    "imgs": [
+      {
+        "fileName": "spect-fragmented.png",
+        "width": "full"
+      },
+      {
+        "fileName": "generator.png",
+        "width": "full"
+      },
+      {
+        "fileName": "field-rainbow.png",
+        "width": "half contain centered"
+      }
+    ]
+  },
   "cor2e-facilities": {
     "name": "COR²E Facilities",
     "id": "cor2e-facilities",
-    "client": "COR²E",
+    "client": "UConn Center for Open Research Resources and Equipment",
     "time": "2018",
     "role": "Art direction, design",
     "media": "Print, digital animation",
@@ -205,55 +245,14 @@
       }
     ]
   },
-  "lincus": {
-    "name": "Lincus",
-    "id": "lincus",
-    "client": "Chief Design Officer",
-    "time": "Ongoing",
-    "role": "Art direction, design, development",
-    "media": "Web application",
-    "scope": "Identity, web application, strategy",
-    "brief": "A startup whose flagship product is a search engine for scientific research expertise. The identity was designed to reflect the idea of interconnection, while invoking a sense of community and intellectualism.",
-    "imgs": [
-      {
-        "fileName": "lincus-comp.png",
-        "width": "full"
-      }
-    ],
-    "vids": ["atom.webm"]
-  },
-  "spect": {
-    "name": "spect",
-    "id": "spect",
-    "client": "UConn OVPR",
-    "time": "2019",
-    "role": "Art direction, design, development",
-    "media": "Web based generative design tool, digital",
-    "scope": "Naming, brand identity, strategy",
-    "brief": "Spect.",
-    "imgs": [
-      {
-        "fileName": "spect-fragmented.png",
-        "width": "full"
-      },
-      {
-        "fileName": "generator.png",
-        "width": "full"
-      },
-      {
-        "fileName": "field-rainbow.png",
-        "width": "half contain centered"
-      }
-    ]
-  },
   "groove": {
     "name": "GROOVE Recording",
     "id": "groove",
     "client": "GROOVE Recording Studio",
     "time": "2018",
-    "role": "Art direction, design, development",
+    "role": "Design, development",
     "media": "Web, digital animation, print, clothing",
-    "scope": "Brand identity, website, t-shirts, business cards, letterhead, invoices, animated advertisements",
+    "scope": "Identity, website, t-shirts, print and digital advertising and business collateral",
     "brief": "GROOVE Recording is the studio practice of a seasoned drummer with years of performing experience. In order to stand out in a saturated market, the brand relies heavily upon rhythm and movement, along with stylized type. The identity system is composed of a suite of grooves, inspired by rudiments and dances.",
     "imgs": [
       {

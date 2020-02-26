@@ -5,7 +5,7 @@
         <h1>{{ activeProject.name }}</h1>
         <p class="subhead">
           <span>
-            <span>{{ projectArray.indexOf(activeProjectId) + 1 }} of {{ projectArray.length }}</span> &mdash;
+            <span class="label">&mdash; {{ projectArray.indexOf(activeProjectId) + 1 }} of {{ projectArray.length }}</span>
             <nuxt-link :to="`/projects/${prevProjectId}`">Previous</nuxt-link>,
             <nuxt-link :to="`/projects/${nextProjectId}`">Next</nuxt-link>,
             <nuxt-link to="/projects">Index</nuxt-link>
@@ -14,9 +14,11 @@
         </p>
       </div>
       <div class="details">
-        <p><span class="label">Role:</span> {{ activeProject.role }}</p>
-        <p><span class="label">Media:</span> {{ activeProject.media }}</p>
-        <p><span class="label">Scope:</span> {{ activeProject.scope }}</p>
+        <p v-if="activeProject.role"><span class="label">Role:</span> {{ activeProject.role }}</p>
+        <p v-if="activeProject.client"><span class="label">Client:</span> {{ activeProject.client }}</p>
+        <p v-if="activeProject.media"><span class="label">Media:</span> {{ activeProject.media }}</p>
+        <p v-if="activeProject.technologies"><span class="label">Tech:</span> {{ activeProject.technologies }}</p>
+        <p v-if="activeProject.scope"><span class="label">Scope:</span> {{ activeProject.scope }}</p>
       </div>
       <p><span class="label">Brief:</span> {{ activeProject.brief }}</p>
     </article>
@@ -127,7 +129,6 @@ export default {
   }
 }
 
-.header-wrapper,
 .details p {
   margin-bottom: ms(2);
 }
