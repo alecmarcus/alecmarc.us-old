@@ -11,7 +11,7 @@
         target="_blank">always be learning</a>, subvert questionable relationships with technology, <v-about-snippet project="lincus">promote intellectual pursuit</v-about-snippet>, and modularize everything.
     </p>
     <p>
-      He can be reached by <a href="tel:+18603083030">phone</a> or <a href="mailto:hi@alecmarc.us">electronic mail</a>.
+      He can be reached by <a href="mailto:hi@alecmarc.us">electronic mail</a>.
     </p>
     <p>
       He designed and developed this website, which is open source. As such, he invites anyone to <a
