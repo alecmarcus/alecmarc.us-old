@@ -1,7 +1,7 @@
 <template>
   <div>
     <p>
-      Alec Marcus is a <v-about-snippet project="groove">communication designer</v-about-snippet>, <v-about-snippet project="cor2e-facilities">graphic designer</v-about-snippet>, <v-about-snippet project="lincus">entrepeneur, product designer</v-about-snippet>, <a
+      Alec Marcus is a <v-about-snippet project="groove">communication designer</v-about-snippet>, <v-about-snippet project="cor2e-facilities">graphic designer</v-about-snippet>, <v-about-snippet project="lincus">entrepreneur, product designer</v-about-snippet>, <a
         href="https://upstatement.com"
         target="_blank">web designer, and developer</a> interested in <v-about-snippet project="hyperreal">media studies</v-about-snippet>, ethical [digital] product design, new & experimental technologies, and <v-about-snippet project="ose">an open source future</v-about-snippet>.
     </p>
