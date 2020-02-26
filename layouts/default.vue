@@ -70,7 +70,7 @@ main {
   --font-size: #{ms(3)};
   --leading: #{ms($steps: 1, $base: 1)};
   --nav-height: calc((var(--font-size) * var(--leading)) + (2 * 1.25rem));
-  --nav-offset-height: calc(var(--nav-height) + 4px);
+  --nav-offset-height: calc(var(--nav-height) + 2px);
 
   line-height: var(--leading);
   font-size: var(--font-size);

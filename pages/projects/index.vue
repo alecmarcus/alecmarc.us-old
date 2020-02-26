@@ -69,7 +69,7 @@ export default {
 <style lang="scss" scoped>
 section {
   margin: var(--nav-offset-height) 0 0;
-  max-height: calc(100vh - (var(--nav-offset-height) + 1.25rem));
+  max-height: calc(100vh - var(--nav-offset-height));
   overflow-y: scroll;
   padding: 0 ms(1);
   position: relative;

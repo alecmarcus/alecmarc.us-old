@@ -1,16 +1,17 @@
 .slide-enter-active,
 .slide-leave-active {
   transition: all 0.5s $ease-in-out-circ;
+
   &#about,
   &#activeProject {
-    position: absolute;
-    top: 0;
     z-index: 0;
   }
 }
 
 .slide-enter,
 .slide-leave-to {
+  opacity: 0;
+
   &#allProjects {
     transform: translateY(100vh);
   }
@@ -18,6 +19,8 @@
 
 .slide-leave,
 .slide-enter-to {
+  opacity: 1;
+
   &#allProjects {
     transform: translateY(0);
   }
