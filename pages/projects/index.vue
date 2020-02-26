@@ -8,7 +8,7 @@
         :project-year="project.time"
         :project-id="project.id" />
     </ul>
-    <h2>See Also:</h2>
+    <h2>Collabs from<br>Upstatement:</h2>
     <p>
       <a
         href="https://hashed.com"
@@ -17,7 +17,7 @@
           class="ext"></a>
       <a
         href="https://typelist.upstatement.com"
-        target="_blank"><span class="inline-name"><img :src="typelist">Typelist:</span> Explore, discover, and get inspired by curated typeface collections. <img
+        target="_blank"><span class="inline-name"><img :src="typelist">TypeList:</span> Explore, discover, and get inspired by curated typeface collections. <img
           :src="externalLinkIcon"
           class="ext"></a>
       <a
@@ -77,7 +77,7 @@ section {
 }
 
 ul {
-  padding-bottom: ms(7);
+  padding-bottom: ms(4);
   padding-right: 1.25rem;
   padding-top: 1.25rem;
   position: relative;
@@ -101,6 +101,7 @@ h2 {
 
 p {
   max-width: 27em;
+  padding-bottom: ms(1);
 }
 
 a {
