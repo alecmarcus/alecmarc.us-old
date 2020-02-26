@@ -77,6 +77,10 @@ img {
   object-fit: contain;
 }
 
+.cover img {
+  object-fit: cover;
+}
+
 .align-right img {
   object-position: right;
 }
@@ -87,30 +91,40 @@ img {
 
 .third {
   width: 33.33%;
-
-  .image-fit-wrapper {
-    height: 75vh;
-  }
 }
 
 .two-thirds {
   width: 66.66%;
-
-  .image-fit-wrapper {
-    height: 75vh;
-  }
 }
 
 .half {
   width: 50%;
+}
 
+.third,
+.two-thirds,
+.half {
   .image-fit-wrapper {
-    height: 75vh;
+    img {
+      max-height: 75vh;
+    }
   }
 }
 
 .full {
   width: 100%;
+}
+
+.full.cover {
+  height: 95vh;
+
+  .image-fit-wrapper {
+    height: 100%;
+
+    img {
+      object-fit: contain;
+    }
+  }
 }
 
 .centered,
