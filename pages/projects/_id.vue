@@ -118,7 +118,7 @@ export default {
   max-width: ms(17);
   padding: 0 ms(1);
 
-  @media (min-width: 900px) {
+  @media (min-width: #{$bp-md}) {
     font-size: ms(1);
   }
 

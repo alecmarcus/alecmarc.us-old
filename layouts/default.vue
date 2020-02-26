@@ -76,13 +76,7 @@ main {
   font-size: var(--font-size);
 }
 
-@media (min-width: 900px) {
-  main {
-    --font-size: #{ms(4)};
-  }
-}
-
-@media (min-width: 1200px) {
+@media (min-width: #{$bp-md}) {
   main {
     --font-size: #{ms(5)};
   }
